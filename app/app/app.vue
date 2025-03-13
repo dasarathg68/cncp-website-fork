@@ -6,11 +6,7 @@
         class="container mx-auto px-4 h-16 flex items-center justify-between"
       >
         <NuxtLink to="/" class="flex items-center gap-2">
-          <UIcon
-            name="i-heroicons-cube-transparent"
-            class="text-gray-500 text-xl"
-          />
-          <span class="font-bold text-xl">CNC Portal</span>
+          <NuxtImg src="/Logo.png" class="w-40" />
         </NuxtLink>
 
         <!-- Desktop Navigation -->
