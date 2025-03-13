@@ -44,8 +44,8 @@
           <h2>Contact</h2>
           <p>
             Questions about the Terms of Service should be sent to:
-            <a href="mailto:legal@cncportal.com" class="text-primary-500"
-              >legal@cncportal.com</a
+            <a href="mailto:dasarathg68@gmail.com" class="text-primary-500"
+              >dasarathg68@gmail.com</a
             >
           </p>
         </UCard>

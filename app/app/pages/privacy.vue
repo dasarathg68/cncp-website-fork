@@ -38,8 +38,8 @@
           <p>
             If you have any questions about this Privacy Policy, please contact
             us at:
-            <a href="mailto:privacy@cncportal.com" class="text-primary-500"
-              >privacy@cncportal.com</a
+            <a href="mailto:dasarathg68@gmail.com" class="text-primary-500"
+              >dasarathg68@gmail.com</a
             >
           </p>
         </UCard>
