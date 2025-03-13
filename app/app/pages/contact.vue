@@ -52,7 +52,7 @@
                   support.
                 </p>
                 <div class="mt-4">
-                  <UButton variant="ghost" to="https://discord.gg/cncportal">
+                  <UButton variant="ghost" to="https://discord.gg/zNgaZSu4x5">
                     Join Discord
                   </UButton>
                 </div>
