@@ -100,7 +100,7 @@
           <UCard>
             <template #header>
               <div class="flex items-center gap-2">
-                <UIcon name="i-heroicons-scale" class="text-gray-500" />
+                <UIcon name="i-heroicons-scale" class="text-primary-500" />
                 <h3 class="text-lg font-semibold">Equitable Scaling</h3>
               </div>
             </template>
@@ -112,7 +112,7 @@
           <UCard>
             <template #header>
               <div class="flex items-center gap-2">
-                <UIcon name="i-heroicons-globe-alt" class="text-gray-500" />
+                <UIcon name="i-heroicons-globe-alt" class="text-primary-500" />
                 <h3 class="text-lg font-semibold">Global Access</h3>
               </div>
             </template>
@@ -124,7 +124,10 @@
           <UCard>
             <template #header>
               <div class="flex items-center gap-2">
-                <UIcon name="i-heroicons-shield-check" class="text-gray-500" />
+                <UIcon
+                  name="i-heroicons-shield-check"
+                  class="text-primary-500"
+                />
                 <h3 class="text-lg font-semibold">Secure Structure</h3>
               </div>
             </template>

@@ -18,7 +18,7 @@
             <UCard class="p-6">
               <template #header>
                 <div class="flex items-center gap-2">
-                  <UIcon name="i-heroicons-cpu-chip" class="text-gray-500" />
+                  <UIcon name="i-heroicons-cpu-chip" class="text-primary-500" />
                   <h3 class="text-lg font-semibold">Global Team</h3>
                 </div>
               </template>
@@ -33,7 +33,7 @@
                 <div class="flex items-center gap-2">
                   <UIcon
                     name="i-heroicons-code-bracket"
-                    class="text-gray-500"
+                    class="text-primary-500"
                   />
                   <h3 class="text-lg font-semibold">Smart Contracts</h3>
                 </div>
@@ -49,7 +49,7 @@
                 <div class="flex items-center gap-2">
                   <UIcon
                     name="i-heroicons-currency-dollar"
-                    class="text-gray-500"
+                    class="text-primary-500"
                   />
                   <h3 class="text-lg font-semibold">Crypto Payments</h3>
                 </div>
@@ -69,7 +69,10 @@
             <UCard class="p-6">
               <template #header>
                 <div class="flex items-center gap-2">
-                  <UIcon name="i-heroicons-paint-brush" class="text-gray-500" />
+                  <UIcon
+                    name="i-heroicons-paint-brush"
+                    class="text-primary-500"
+                  />
                   <h3 class="text-lg font-semibold">Creative Collaboration</h3>
                 </div>
               </template>
@@ -84,7 +87,7 @@
                 <div class="flex items-center gap-2">
                   <UIcon
                     name="i-heroicons-currency-dollar"
-                    class="text-gray-500"
+                    class="text-primary-500"
                   />
                   <h3 class="text-lg font-semibold">Equal Sharing</h3>
                 </div>
@@ -98,7 +101,7 @@
             <UCard class="p-6">
               <template #header>
                 <div class="flex items-center gap-2">
-                  <UIcon name="i-heroicons-photo" class="text-gray-500" />
+                  <UIcon name="i-heroicons-photo" class="text-primary-500" />
                   <h3 class="text-lg font-semibold">Digital Assets</h3>
                 </div>
               </template>
@@ -119,7 +122,7 @@
                 <div class="flex items-center gap-2">
                   <UIcon
                     name="i-heroicons-code-bracket"
-                    class="text-gray-500"
+                    class="text-primary-500"
                   />
                   <h3 class="text-lg font-semibold">Open Source</h3>
                 </div>
@@ -133,7 +136,7 @@
             <UCard class="p-6">
               <template #header>
                 <div class="flex items-center gap-2">
-                  <UIcon name="i-heroicons-star" class="text-gray-500" />
+                  <UIcon name="i-heroicons-star" class="text-primary-500" />
                   <h3 class="text-lg font-semibold">Merit-Based</h3>
                 </div>
               </template>
@@ -146,7 +149,10 @@
             <UCard class="p-6">
               <template #header>
                 <div class="flex items-center gap-2">
-                  <UIcon name="i-heroicons-arrow-path" class="text-gray-500" />
+                  <UIcon
+                    name="i-heroicons-arrow-path"
+                    class="text-primary-500"
+                  />
                   <h3 class="text-lg font-semibold">Sustainable</h3>
                 </div>
               </template>

@@ -19,17 +19,20 @@
               <UCard class="p-6">
                 <template #header>
                   <div class="flex items-center gap-2">
-                    <UIcon name="i-heroicons-envelope" class="text-gray-500" />
+                    <UIcon
+                      name="i-heroicons-envelope"
+                      class="text-primary-500"
+                    />
                     <h3 class="text-lg font-semibold">Email Support</h3>
                   </div>
                 </template>
                 <p class="text-gray-600">
                   For general inquiries and support:
                   <a
-                    href="mailto:support@cncportal.com"
-                    class="text-gray-900 hover:underline"
+                    href="mailto:dasarathg68@gmail.com"
+                    class="text-primary-900 hover:underline"
                   >
-                    support@cncportal.com
+                    dasarathg68@gmail.com
                   </a>
                 </p>
               </UCard>
@@ -39,7 +42,7 @@
                   <div class="flex items-center gap-2">
                     <UIcon
                       name="i-heroicons-chat-bubble-left-right"
-                      class="text-gray-500"
+                      class="text-primary-500"
                     />
                     <h3 class="text-lg font-semibold">Community</h3>
                   </div>
@@ -60,7 +63,7 @@
                   <div class="flex items-center gap-2">
                     <UIcon
                       name="i-heroicons-document-text"
-                      class="text-gray-500"
+                      class="text-primary-500"
                     />
                     <h3 class="text-lg font-semibold">Documentation</h3>
                   </div>

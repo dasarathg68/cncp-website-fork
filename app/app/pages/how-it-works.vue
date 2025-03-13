@@ -21,7 +21,7 @@
                 <div class="flex items-center gap-2">
                   <UIcon
                     name="i-heroicons-document-text"
-                    class="text-gray-500"
+                    class="text-primary-500"
                   />
                   <h3 class="text-lg font-semibold">Organization Details</h3>
                 </div>
@@ -35,7 +35,10 @@
             <UCard class="p-6">
               <template #header>
                 <div class="flex items-center gap-2">
-                  <UIcon name="i-heroicons-user-group" class="text-gray-500" />
+                  <UIcon
+                    name="i-heroicons-user-group"
+                    class="text-primary-500"
+                  />
                   <h3 class="text-lg font-semibold">Team Structure</h3>
                 </div>
               </template>
@@ -50,7 +53,7 @@
                 <div class="flex items-center gap-2">
                   <UIcon
                     name="i-heroicons-currency-dollar"
-                    class="text-gray-500"
+                    class="text-primary-500"
                   />
                   <h3 class="text-lg font-semibold">Token Economics</h3>
                 </div>
@@ -71,7 +74,7 @@
                 <div class="flex items-center gap-2">
                   <UIcon
                     name="i-heroicons-code-bracket"
-                    class="text-gray-500"
+                    class="text-primary-500"
                   />
                   <h3 class="text-lg font-semibold">Contract Generation</h3>
                 </div>
@@ -87,7 +90,7 @@
                 <div class="flex items-center gap-2">
                   <UIcon
                     name="i-heroicons-shield-check"
-                    class="text-gray-500"
+                    class="text-primary-500"
                   />
                   <h3 class="text-lg font-semibold">Security Review</h3>
                 </div>
@@ -103,7 +106,7 @@
                 <div class="flex items-center gap-2">
                   <UIcon
                     name="i-heroicons-rocket-launch"
-                    class="text-gray-500"
+                    class="text-primary-500"
                   />
                   <h3 class="text-lg font-semibold">Deployment</h3>
                 </div>
@@ -122,7 +125,10 @@
             <UCard class="p-6">
               <template #header>
                 <div class="flex items-center gap-2">
-                  <UIcon name="i-heroicons-chart-bar" class="text-gray-500" />
+                  <UIcon
+                    name="i-heroicons-chart-bar"
+                    class="text-primary-500"
+                  />
                   <h3 class="text-lg font-semibold">Dashboard</h3>
                 </div>
               </template>
@@ -135,7 +141,10 @@
             <UCard class="p-6">
               <template #header>
                 <div class="flex items-center gap-2">
-                  <UIcon name="i-heroicons-check-badge" class="text-gray-500" />
+                  <UIcon
+                    name="i-heroicons-check-badge"
+                    class="text-primary-500"
+                  />
                   <h3 class="text-lg font-semibold">Governance</h3>
                 </div>
               </template>
@@ -148,7 +157,10 @@
             <UCard class="p-6">
               <template #header>
                 <div class="flex items-center gap-2">
-                  <UIcon name="i-heroicons-arrow-path" class="text-gray-500" />
+                  <UIcon
+                    name="i-heroicons-arrow-path"
+                    class="text-primary-500"
+                  />
                   <h3 class="text-lg font-semibold">Updates</h3>
                 </div>
               </template>
