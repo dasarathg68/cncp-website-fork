@@ -92,8 +92,8 @@
             <UButton
               to="/get-started"
               block
-              @click="isMenuOpen = false"
               class="transition-transform hover:scale-105"
+              @click="isMenuOpen = false"
             >
               Get Started
             </UButton>
