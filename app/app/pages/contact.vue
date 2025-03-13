@@ -12,44 +12,6 @@
       <!-- Contact Content -->
       <div class="max-w-6xl mx-auto">
         <div class="grid md:grid-cols-2 gap-12">
-          <!-- Contact Form -->
-          <div>
-            <h2 class="text-2xl font-bold mb-8">Send us a Message</h2>
-            <UCard class="p-6">
-              <form class="space-y-6">
-                <div class="space-y-4">
-                  <UFormGroup label="Name">
-                    <UInput placeholder="Your name" />
-                  </UFormGroup>
-
-                  <UFormGroup label="Email">
-                    <UInput type="email" placeholder="your@email.com" />
-                  </UFormGroup>
-
-                  <UFormGroup label="Subject">
-                    <USelect
-                      :options="[
-                        'General Inquiry',
-                        'Technical Support',
-                        'Partnership',
-                        'Other',
-                      ]"
-                      placeholder="Select a subject"
-                    />
-                  </UFormGroup>
-
-                  <UFormGroup label="Message">
-                    <UTextarea placeholder="How can we help you?" />
-                  </UFormGroup>
-                </div>
-
-                <div class="flex justify-end">
-                  <UButton type="submit"> Send Message </UButton>
-                </div>
-              </form>
-            </UCard>
-          </div>
-
           <!-- Contact Information -->
           <div>
             <h2 class="text-2xl font-bold mb-8">Other Ways to Connect</h2>
@@ -113,14 +75,10 @@
               </UCard>
             </div>
           </div>
-        </div>
 
-        <!-- FAQ Section -->
-        <div class="mt-16">
-          <h2 class="text-2xl font-bold mb-8 text-center">
-            Frequently Asked Questions
-          </h2>
-          <div class="max-w-3xl mx-auto">
+          <!-- FAQ Section -->
+          <div>
+            <h2 class="text-2xl font-bold mb-8">Frequently Asked Questions</h2>
             <UCard class="divide-y">
               <div class="py-4">
                 <h3 class="font-semibold mb-2">What is a CNC?</h3>
