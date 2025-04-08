@@ -1,75 +1,76 @@
-# Nuxt UI v3 Starter
+# Nuxt.js Application
 
-Look at [Nuxt docs](https://nuxt.com/docs/getting-started/introduction) and [Nuxt UI docs](https://ui3.nuxt.dev) to learn more.
+This is a Nuxt.js application with Docker support for easy deployment and development.
 
-## Setup
+## Prerequisites
 
-Make sure to install the dependencies:
+- Node.js 20 or later
+- Docker and Docker Compose (for containerized deployment)
+
+## Development
 
 ```bash
-# npm
+# Install dependencies
 npm install
 
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
+# Start development server
 npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
 
-## Production
+## Docker Deployment
 
-Build the application for production:
+### Building the Docker Image
 
 ```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
+# Build the Docker image
+docker build -t nuxt-app .
 ```
 
-Locally preview production build:
+### Running the Container
 
 ```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
+# Run the container
+docker run -p 3000:3000 nuxt-app
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+The application will be available at `http://localhost:3000`.
+
+### Environment Variables
+
+If you need to use environment variables, you can pass them using the `-e` flag:
+
+```bash
+docker run -p 3000:3000 -e NODE_ENV=production nuxt-app
+```
+
+### Docker Compose
+
+For a more complex setup, you can use Docker Compose. Create a `docker-compose.yml` file:
+
+```yaml
+version: "3"
+services:
+  app:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+```
+
+Then run:
+
+```bash
+docker-compose up
+```
+
+## Project Structure
+
+- `nuxt.config.ts` - Nuxt.js configuration
+- `package.json` - Project dependencies and scripts
+- `Dockerfile` - Docker configuration for containerization
+- `.dockerignore` - Files to exclude from Docker build
+
+## License
+
+[Add your license information here]
