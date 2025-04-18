@@ -1,7 +1,10 @@
 <template>
   <div class="min-h-screen bg-white dark:bg-gray-900">
     <!-- Navigation Bar -->
-    <header class="border-b border-gray-200 dark:border-gray-800">
+    <header
+      class="fixed top-0 left-0 right-0 border-b border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 transition-transform duration-300 z-50"
+      :class="{ '-translate-y-full': !showHeader }"
+    >
       <div
         class="container mx-auto px-4 h-16 flex items-center justify-between"
       >
@@ -124,7 +127,7 @@
     </header>
 
     <!-- Main Content -->
-    <main>
+    <main class="pt-16">
       <Transition name="page" mode="out-in">
         <NuxtPage />
       </Transition>
@@ -157,6 +160,37 @@
 <script setup>
 const isMenuOpen = ref(false);
 const colorMode = useColorMode();
+
+// Add scroll behavior logic
+const showHeader = ref(true);
+const lastScrollPosition = ref(0);
+const scrollThreshold = 50; // Minimum scroll amount before hiding/showing
+
+onMounted(() => {
+  window.addEventListener("scroll", handleScroll, { passive: true });
+});
+
+onUnmounted(() => {
+  window.removeEventListener("scroll", handleScroll);
+});
+
+const handleScroll = () => {
+  const currentScrollPosition = window.scrollY;
+
+  // Don't do anything if we haven't scrolled enough
+  if (
+    Math.abs(currentScrollPosition - lastScrollPosition.value) < scrollThreshold
+  ) {
+    return;
+  }
+
+  showHeader.value =
+    // Show header if scrolling up or at the top
+    currentScrollPosition < lastScrollPosition.value ||
+    currentScrollPosition < 50;
+
+  lastScrollPosition.value = currentScrollPosition;
+};
 </script>
 
 <style>
@@ -200,5 +234,10 @@ const colorMode = useColorMode();
 
 .nav-link:hover::after {
   width: 100%;
+}
+
+/* Add smooth transition for header */
+header {
+  will-change: transform;
 }
 </style>
