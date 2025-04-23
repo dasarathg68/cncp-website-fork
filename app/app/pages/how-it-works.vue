@@ -10,171 +10,223 @@
         </p>
       </div>
 
-      <!-- Process Steps -->
-      <div class="max-w-6xl mx-auto">
-        <!-- Step 1: Basic Setup -->
-        <div class="mb-16">
-          <h2 class="text-2xl font-bold mb-8">Step 1: Basic Setup</h2>
-          <div class="grid md:grid-cols-3 gap-8">
-            <UCard class="p-6">
-              <template #header>
-                <div class="flex items-center gap-2">
-                  <UIcon
-                    name="i-heroicons-document-text"
-                    class="text-primary-500"
-                  />
-                  <h3 class="text-lg font-semibold">Organization Details</h3>
-                </div>
-              </template>
-              <p class="text-gray-600">
-                Enter your organization's name, description, and basic
-                information to get started.
-              </p>
-            </UCard>
+      <div class="max-w-6xl mx-auto px-4">
+        <div class="relative">
+          <div
+            class="absolute left-1/2 top-0 bottom-0 w-1 bg-emerald-200 transform -translate-x-1/2 hidden md:block"
+          />
+          <!-- Mobile Timeline Line -->
+          <div
+            class="absolute left-8 top-0 bottom-0 w-1 bg-emerald-200 transform -translate-x-1/2 md:hidden"
+          />
 
-            <UCard class="p-6">
-              <template #header>
-                <div class="flex items-center gap-2">
-                  <UIcon
-                    name="i-heroicons-user-group"
-                    class="text-primary-500"
-                  />
-                  <h3 class="text-lg font-semibold">Team Structure</h3>
+          <div class="relative mb-16">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+              <div class="w-full md:w-5/12 pl-16 md:pl-0">
+                <div
+                  class="bg-white rounded-lg shadow-sm p-6 border border-gray-100"
+                >
+                  <h3 class="text-xl font-semibold text-emerald-700 mb-3">
+                    Initial Concept
+                  </h3>
+                  <p class="text-gray-600 mb-4">
+                    A founding team or individual develops an innovative idea
+                    for a decentralized organization.
+                  </p>
+                  <div class="bg-emerald-50 p-4 rounded-lg">
+                    <ul class="space-y-2 text-gray-700">
+                      <li class="flex items-center">
+                        <UIcon
+                          name="i-heroicons-light-bulb"
+                          class="w-5 h-5 text-emerald-600 mr-2"
+                        />
+                        <span>Vision development</span>
+                      </li>
+                      <li class="flex items-center">
+                        <UIcon
+                          name="i-heroicons-document-text"
+                          class="w-5 h-5 text-emerald-600 mr-2"
+                        />
+                        <span>Initial planning</span>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
-              </template>
-              <p class="text-gray-600">
-                Define your board size and initial team members who will help
-                manage the organization.
-              </p>
-            </UCard>
+              </div>
+              <div
+                class="absolute left-8 md:left-1/2 -translate-x-1/2 w-4 h-4 rounded-full bg-emerald-600 border-4 border-emerald-100"
+              />
+              <div class="hidden md:block md:w-5/12" />
+            </div>
+          </div>
 
-            <UCard class="p-6">
-              <template #header>
-                <div class="flex items-center gap-2">
-                  <UIcon
-                    name="i-heroicons-currency-dollar"
-                    class="text-primary-500"
-                  />
-                  <h3 class="text-lg font-semibold">Token Economics</h3>
+          <div class="relative mb-16">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+              <div class="hidden md:block md:w-5/12" />
+              <div
+                class="absolute left-8 md:left-1/2 -translate-x-1/2 w-4 h-4 rounded-full bg-emerald-600 border-4 border-emerald-100"
+              />
+              <div class="w-full md:w-5/12 pl-16 md:pl-0">
+                <div
+                  class="bg-white rounded-lg shadow-sm p-6 border border-gray-100"
+                >
+                  <h3 class="text-xl font-semibold text-emerald-700 mb-3">
+                    Community Building
+                  </h3>
+                  <p class="text-gray-600 mb-4">
+                    Gather micro investments from a distributed pool of
+                    knowledge workers who believe in the vision.
+                  </p>
+                  <div class="bg-emerald-50 p-4 rounded-lg">
+                    <ul class="space-y-2 text-gray-700">
+                      <li class="flex items-center">
+                        <UIcon
+                          name="i-heroicons-user-group"
+                          class="w-5 h-5 text-emerald-600 mr-2"
+                        />
+                        <span>Community engagement</span>
+                      </li>
+                      <li class="flex items-center">
+                        <UIcon
+                          name="i-heroicons-currency-dollar"
+                          class="w-5 h-5 text-emerald-600 mr-2"
+                        />
+                        <span>Initial funding</span>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
-              </template>
-              <p class="text-gray-600">
-                Set up your token supply and distribution model for SHER tokens.
-              </p>
-            </UCard>
+              </div>
+            </div>
+          </div>
+
+          <div class="relative mb-16">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+              <div class="w-full md:w-5/12 pl-16 md:pl-0">
+                <div
+                  class="bg-white rounded-lg shadow-sm p-6 border border-gray-100"
+                >
+                  <h3 class="text-xl font-semibold text-emerald-700 mb-3">
+                    Organizational Structure
+                  </h3>
+                  <p class="text-gray-600 mb-4">
+                    Establish a distributed corporate structure with clear
+                    governance and operational frameworks.
+                  </p>
+                  <div class="bg-emerald-50 p-4 rounded-lg">
+                    <ul class="space-y-2 text-gray-700">
+                      <li class="flex items-center">
+                        <UIcon
+                          name="i-heroicons-chart-bar"
+                          class="w-5 h-5 text-emerald-600 mr-2"
+                        />
+                        <span>Governance model</span>
+                      </li>
+                      <li class="flex items-center">
+                        <UIcon
+                          name="i-heroicons-cog"
+                          class="w-5 h-5 text-emerald-600 mr-2"
+                        />
+                        <span>Operational systems</span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="absolute left-8 md:left-1/2 -translate-x-1/2 w-4 h-4 rounded-full bg-emerald-600 border-4 border-emerald-100"
+              />
+              <div class="hidden md:block md:w-5/12" />
+            </div>
+          </div>
+
+          <div class="relative mb-16">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+              <div class="hidden md:block md:w-5/12" />
+              <div
+                class="absolute left-8 md:left-1/2 -translate-x-1/2 w-4 h-4 rounded-full bg-emerald-600 border-4 border-emerald-100"
+              />
+              <div class="w-full md:w-5/12 pl-16 md:pl-0">
+                <div
+                  class="bg-white rounded-lg shadow-sm p-6 border border-gray-100"
+                >
+                  <h3 class="text-xl font-semibold text-emerald-700 mb-3">
+                    Growth & Scale
+                  </h3>
+                  <p class="text-gray-600 mb-4">
+                    Scale operations through pooled labor and community synergy
+                    while maintaining decentralized management.
+                  </p>
+                  <div class="bg-emerald-50 p-4 rounded-lg">
+                    <ul class="space-y-2 text-gray-700">
+                      <li class="flex items-center">
+                        <UIcon
+                          name="i-heroicons-arrow-trending-up"
+                          class="w-5 h-5 text-emerald-600 mr-2"
+                        />
+                        <span>Sustainable growth</span>
+                      </li>
+                      <li class="flex items-center">
+                        <UIcon
+                          name="i-heroicons-users"
+                          class="w-5 h-5 text-emerald-600 mr-2"
+                        />
+                        <span>Community expansion</span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="relative">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+              <div class="w-full md:w-5/12 pl-16 md:pl-0">
+                <div
+                  class="bg-white rounded-lg shadow-sm p-6 border border-gray-100"
+                >
+                  <h3 class="text-xl font-semibold text-emerald-700 mb-3">
+                    Value Distribution
+                  </h3>
+                  <p class="text-gray-600 mb-4">
+                    Profits and value are distributed back to the community of
+                    investors and workers.
+                  </p>
+                  <div class="bg-emerald-50 p-4 rounded-lg">
+                    <ul class="space-y-2 text-gray-700">
+                      <li class="flex items-center">
+                        <UIcon
+                          name="i-heroicons-banknotes"
+                          class="w-5 h-5 text-emerald-600 mr-2"
+                        />
+                        <span>Profit sharing</span>
+                      </li>
+                      <li class="flex items-center">
+                        <UIcon
+                          name="i-heroicons-gift"
+                          class="w-5 h-5 text-emerald-600 mr-2"
+                        />
+                        <span>Community rewards</span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="absolute left-8 md:left-1/2 -translate-x-1/2 w-4 h-4 rounded-full bg-emerald-600 border-4 border-emerald-100"
+              />
+              <div class="hidden md:block md:w-5/12" />
+            </div>
           </div>
         </div>
 
-        <!-- Step 2: Smart Contracts -->
-        <div class="mb-16">
-          <h2 class="text-2xl font-bold mb-8">Step 2: Smart Contracts</h2>
-          <div class="grid md:grid-cols-3 gap-8">
-            <UCard class="p-6">
-              <template #header>
-                <div class="flex items-center gap-2">
-                  <UIcon
-                    name="i-heroicons-code-bracket"
-                    class="text-primary-500"
-                  />
-                  <h3 class="text-lg font-semibold">Contract Generation</h3>
-                </div>
-              </template>
-              <p class="text-gray-600">
-                Our system automatically generates the necessary smart contracts
-                based on your configuration.
-              </p>
-            </UCard>
-
-            <UCard class="p-6">
-              <template #header>
-                <div class="flex items-center gap-2">
-                  <UIcon
-                    name="i-heroicons-shield-check"
-                    class="text-primary-500"
-                  />
-                  <h3 class="text-lg font-semibold">Security Review</h3>
-                </div>
-              </template>
-              <p class="text-gray-600">
-                Contracts are reviewed for security and compliance with best
-                practices.
-              </p>
-            </UCard>
-
-            <UCard class="p-6">
-              <template #header>
-                <div class="flex items-center gap-2">
-                  <UIcon
-                    name="i-heroicons-rocket-launch"
-                    class="text-primary-500"
-                  />
-                  <h3 class="text-lg font-semibold">Deployment</h3>
-                </div>
-              </template>
-              <p class="text-gray-600">
-                Deploy your contracts to the blockchain with our guided process.
-              </p>
-            </UCard>
-          </div>
-        </div>
-
-        <!-- Step 3: Management -->
-        <div class="mb-16">
-          <h2 class="text-2xl font-bold mb-8">Step 3: Management</h2>
-          <div class="grid md:grid-cols-3 gap-8">
-            <UCard class="p-6">
-              <template #header>
-                <div class="flex items-center gap-2">
-                  <UIcon
-                    name="i-heroicons-chart-bar"
-                    class="text-primary-500"
-                  />
-                  <h3 class="text-lg font-semibold">Dashboard</h3>
-                </div>
-              </template>
-              <p class="text-gray-600">
-                Access your organization's dashboard for real-time monitoring
-                and management.
-              </p>
-            </UCard>
-
-            <UCard class="p-6">
-              <template #header>
-                <div class="flex items-center gap-2">
-                  <UIcon
-                    name="i-heroicons-check-badge"
-                    class="text-primary-500"
-                  />
-                  <h3 class="text-lg font-semibold">Governance</h3>
-                </div>
-              </template>
-              <p class="text-gray-600">
-                Manage proposals, voting, and board decisions through the
-                platform.
-              </p>
-            </UCard>
-
-            <UCard class="p-6">
-              <template #header>
-                <div class="flex items-center gap-2">
-                  <UIcon
-                    name="i-heroicons-arrow-path"
-                    class="text-primary-500"
-                  />
-                  <h3 class="text-lg font-semibold">Updates</h3>
-                </div>
-              </template>
-              <p class="text-gray-600">
-                Easily update your organization's structure and parameters as
-                needed.
-              </p>
-            </UCard>
-          </div>
-        </div>
-
-        <!-- CTA -->
-        <div class="text-center">
-          <UButton size="lg" to="/get-started">
+        <div class="text-center mt-16">
+          <UButton
+            size="lg"
+            to="https://app.cncportal.io"
+            class="bg-emerald-600 hover:bg-emerald-700 text-white px-8 py-3 rounded-md text-lg font-medium"
+          >
             Start Your CNC Journey
           </UButton>
         </div>
