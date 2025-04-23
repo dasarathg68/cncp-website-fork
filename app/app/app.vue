@@ -37,7 +37,7 @@
           </NuxtLink>
 
           <UButton
-            to="/get-started"
+            to="https://app.cncportal.io"
             class="transition-transform hover:scale-105"
             >Get Started</UButton
           >
@@ -98,7 +98,7 @@
             </NuxtLink>
 
             <UButton
-              to="/get-started"
+              to="https://app.cncportal.io"
               block
               class="transition-transform hover:scale-105"
               @click="isMenuOpen = false"
@@ -139,18 +139,7 @@
         class="container mx-auto px-4 py-6 flex items-center justify-between"
       >
         <div class="text-sm text-gray-500 dark:text-gray-400">
-          © 2024 CNC Portal. All rights reserved.
-        </div>
-        <div class="flex gap-4">
-          <NuxtLink
-            v-for="link in ['privacy', 'terms']"
-            :key="link"
-            :to="'/' + link"
-            class="nav-link text-sm text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-200"
-          >
-            {{ link.charAt(0).toUpperCase() + link.slice(1) }}
-            {{ link === "privacy" ? "Policy" : "of Service" }}
-          </NuxtLink>
+          © 2025 Globe & Citizen: A Crypto Native Corporation
         </div>
       </div>
     </footer>

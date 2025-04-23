@@ -1,10 +1,12 @@
 <template>
-  <div class="py-16">
+  <div class="py-16 dark:bg-gray-900">
     <div class="container mx-auto px-4">
       <!-- Page Header -->
       <div class="max-w-3xl mx-auto text-center mb-16">
-        <h1 class="text-4xl font-bold mb-6">CNC Portal Features</h1>
-        <p class="text-xl text-gray-600">
+        <h1 class="text-4xl font-bold mb-6 text-black dark:text-emerald-400">
+          CNC Portal Features
+        </h1>
+        <p class="text-xl text-black dark:text-white">
           Everything you need to create and manage your Crypto Native
           Corporation
         </p>
@@ -14,52 +16,66 @@
       <div class="max-w-6xl mx-auto">
         <!-- Smart Contract Management -->
         <div class="mb-16">
-          <h2 class="text-2xl font-bold mb-8">Smart Contract Management</h2>
+          <h2 class="text-2xl font-bold mb-8 text-black dark:text-emerald-400">
+            Smart Contract Management
+          </h2>
           <div class="grid md:grid-cols-3 gap-8">
-            <UCard class="p-6">
+            <UCard class="shadow-sm dark:bg-gray-800">
               <template #header>
                 <div class="flex items-center gap-2">
                   <UIcon
                     name="i-heroicons-document-text"
-                    class="text-primary-500"
+                    class="text-emerald-600 dark:text-emerald-400"
                   />
-                  <h3 class="text-lg font-semibold">Contract Creation</h3>
+                  <h3
+                    class="text-lg font-semibold text-black dark:text-emerald-400"
+                  >
+                    Contract Creation
+                  </h3>
                 </div>
               </template>
-              <p class="text-gray-600">
+              <p class="text-black dark:text-white">
                 Easily create and deploy smart contracts for employment
                 agreements, profit sharing, and governance structures.
               </p>
             </UCard>
 
-            <UCard class="p-6">
+            <UCard class="shadow-sm dark:bg-gray-800">
               <template #header>
                 <div class="flex items-center gap-2">
                   <UIcon
                     name="i-heroicons-currency-dollar"
-                    class="text-primary-500"
+                    class="text-emerald-600 dark:text-emerald-400"
                   />
-                  <h3 class="text-lg font-semibold">Payment Management</h3>
+                  <h3
+                    class="text-lg font-semibold text-black dark:text-emerald-400"
+                  >
+                    Payment Management
+                  </h3>
                 </div>
               </template>
-              <p class="text-gray-600">
+              <p class="text-black dark:text-white">
                 Automate crypto payments, track distributions, and manage
                 payroll tokens with built-in exchange rate handling.
               </p>
             </UCard>
 
-            <UCard class="p-6">
+            <UCard class="shadow-sm dark:bg-gray-800">
               <template #header>
                 <div class="flex items-center gap-2">
                   <UIcon
                     name="i-heroicons-chart-bar"
-                    class="text-primary-500"
+                    class="text-emerald-600 dark:text-emerald-400"
                   />
-                  <h3 class="text-lg font-semibold">Token Management</h3>
+                  <h3
+                    class="text-lg font-semibold text-black dark:text-emerald-400"
+                  >
+                    Token Management
+                  </h3>
                 </div>
               </template>
-              <p class="text-gray-600">
-                Issue and manage SHER tokens, track ownership distribution, and
+              <p class="text-black dark:text-white">
+                Issue and manage ERC20 tokens, track ownership distribution, and
                 handle token transfers securely.
               </p>
             </UCard>
@@ -68,51 +84,65 @@
 
         <!-- Governance Tools -->
         <div class="mb-16">
-          <h2 class="text-2xl font-bold mb-8">Governance Tools</h2>
+          <h2 class="text-2xl font-bold mb-8 text-black dark:text-emerald-400">
+            Governance Tools
+          </h2>
           <div class="grid md:grid-cols-3 gap-8">
-            <UCard class="p-6">
+            <UCard class="shadow-sm dark:bg-gray-800">
               <template #header>
                 <div class="flex items-center gap-2">
                   <UIcon
                     name="i-heroicons-user-group"
-                    class="text-primary-500"
+                    class="text-emerald-600 dark:text-emerald-400"
                   />
-                  <h3 class="text-lg font-semibold">Board Management</h3>
+                  <h3
+                    class="text-lg font-semibold text-black dark:text-emerald-400"
+                  >
+                    Board Management
+                  </h3>
                 </div>
               </template>
-              <p class="text-gray-600">
+              <p class="text-black dark:text-white">
                 Tools for board elections, decision tracking, and implementing
                 board-approved changes.
               </p>
             </UCard>
 
-            <UCard class="p-6">
+            <UCard class="shadow-sm dark:bg-gray-800">
               <template #header>
                 <div class="flex items-center gap-2">
                   <UIcon
                     name="i-heroicons-check-badge"
-                    class="text-primary-500"
+                    class="text-emerald-600 dark:text-emerald-400"
                   />
-                  <h3 class="text-lg font-semibold">Voting System</h3>
+                  <h3
+                    class="text-lg font-semibold text-black dark:text-emerald-400"
+                  >
+                    Voting System
+                  </h3>
                 </div>
               </template>
-              <p class="text-gray-600">
+              <p class="text-black dark:text-white">
                 Secure voting mechanisms for corporate decisions, with automatic
                 execution of approved proposals.
               </p>
             </UCard>
 
-            <UCard class="p-6">
+            <UCard class="shadow-sm dark:bg-gray-800">
               <template #header>
                 <div class="flex items-center gap-2">
                   <UIcon
                     name="i-heroicons-document-chart-bar"
-                    class="text-primary-500"
+                    class="text-emerald-600 dark:text-emerald-400"
                   />
-                  <h3 class="text-lg font-semibold">Reporting</h3>
+                  <h3
+                    class="text-lg font-semibold text-black dark:text-emerald-400"
+                  >
+                    Reporting
+                  </h3>
                 </div>
               </template>
-              <p class="text-gray-600">
+              <p class="text-black dark:text-white">
                 Comprehensive reporting tools for transparency in ownership,
                 voting, and financial distributions.
               </p>
@@ -120,109 +150,47 @@
           </div>
         </div>
 
-        <!-- Collaboration Features -->
-        <div class="mb-16">
-          <h2 class="text-2xl font-bold mb-8">Collaboration Features</h2>
-          <div class="grid md:grid-cols-3 gap-8">
-            <UCard class="p-6">
-              <template #header>
-                <div class="flex items-center gap-2">
-                  <UIcon name="i-heroicons-users" class="text-primary-500" />
-                  <h3 class="text-lg font-semibold">Team Management</h3>
-                </div>
-              </template>
-              <p class="text-gray-600">
-                Tools for organizing distributed teams, tracking contributions,
-                and managing permissions.
-              </p>
-            </UCard>
-
-            <UCard class="p-6">
-              <template #header>
-                <div class="flex items-center gap-2">
-                  <UIcon
-                    name="i-heroicons-presentation-chart-line"
-                    class="text-primary-500"
-                  />
-                  <h3 class="text-lg font-semibold">Project Tracking</h3>
-                </div>
-              </template>
-              <p class="text-gray-600">
-                Integrated project management tools with automatic token
-                distribution based on contributions.
-              </p>
-            </UCard>
-
-            <UCard class="p-6">
-              <template #header>
-                <div class="flex items-center gap-2">
-                  <UIcon
-                    name="i-heroicons-chat-bubble-left-right"
-                    class="text-primary-500"
-                  />
-                  <h3 class="text-lg font-semibold">Communication</h3>
-                </div>
-              </template>
-              <p class="text-gray-600">
-                Built-in communication tools for team coordination and corporate
-                announcements.
-              </p>
-            </UCard>
-          </div>
-        </div>
-
         <!-- Integration & Security -->
         <div class="mb-16">
-          <h2 class="text-2xl font-bold mb-8">Integration & Security</h2>
+          <h2 class="text-2xl font-bold mb-8 text-black dark:text-emerald-400">
+            3rd Party Integrations
+          </h2>
           <div class="grid md:grid-cols-2 gap-8">
-            <UCard class="p-6">
+            <UCard class="shadow-sm dark:bg-gray-800">
               <template #header>
                 <div class="flex items-center gap-2">
                   <UIcon
                     name="i-heroicons-puzzle-piece"
-                    class="text-primary-500"
+                    class="text-emerald-600 dark:text-emerald-400"
                   />
-                  <h3 class="text-lg font-semibold">
+                  <h3
+                    class="text-lg font-semibold text-black dark:text-emerald-400"
+                  >
                     Third-party Integrations
                   </h3>
                 </div>
               </template>
-              <p class="text-gray-600">
+              <p class="text-black dark:text-white">
                 Connect with popular development tools, payment systems, and
                 blockchain networks. Seamlessly integrate with:
               </p>
-              <ul class="list-disc pl-4 mt-4 space-y-2 text-gray-600">
-                <li>GitHub for code contribution tracking</li>
-                <li>Popular crypto wallets</li>
-                <li>Project management tools</li>
-              </ul>
-            </UCard>
-
-            <UCard class="p-6">
-              <template #header>
-                <div class="flex items-center gap-2">
-                  <UIcon
-                    name="i-heroicons-shield-check"
-                    class="text-primary-500"
-                  />
-                  <h3 class="text-lg font-semibold">Security Features</h3>
-                </div>
-              </template>
-              <p class="text-gray-600">
-                Enterprise-grade security to protect your organization:
-              </p>
-              <ul class="list-disc pl-4 mt-4 space-y-2 text-gray-600">
-                <li>Multi-signature transactions</li>
-                <li>Role-based access control</li>
-                <li>Audit logging and compliance tools</li>
-              </ul>
+              <div
+                class="bg-emerald-50 dark:bg-emerald-900/50 p-4 rounded-lg mt-4"
+              >
+                <ul class="list-disc pl-4 space-y-2 text-black dark:text-white">
+                  <li>GitHub for code contribution tracking</li>
+                  <li>Popular crypto wallets</li>
+                  <li>Project management tools</li>
+                </ul>
+              </div>
+              <UButton variant="ghost" class="mt-4">Coming Soon</UButton>
             </UCard>
           </div>
         </div>
 
         <!-- CTA -->
         <div class="text-center">
-          <UButton color="primary" size="lg" to="/get-started">
+          <UButton size="lg" to="/get-started">
             Start Building Your CNC
           </UButton>
         </div>
