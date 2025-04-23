@@ -26,11 +26,8 @@
             v-for="link in ['features', 'how-it-works', 'use-cases', 'contact']"
             :key="link"
             :to="'/' + link"
-            class="relative nav-link text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-200"
-            :class="{
-              'text-gray-900 dark:text-gray-200 after:w-full':
-                $route.path.substring(1) === link,
-            }"
+            class="nav-link text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-200"
+            active-class="active"
           >
             {{
               link
@@ -90,11 +87,8 @@
               ]"
               :key="link"
               :to="'/' + link"
-              class="relative nav-link block text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-200"
-              :class="{
-                'text-gray-900 dark:text-gray-200 after:w-full':
-                  $route.path.substring(1) === link,
-              }"
+              class="nav-link block text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-200"
+              active-class="active"
               @click="isMenuOpen = false"
             >
               {{
@@ -213,6 +207,11 @@ const handleScroll = () => {
 }
 
 /* Hover animations for navigation links */
+.nav-link {
+  position: relative;
+  transition: color 0.3s ease;
+}
+
 .nav-link::after {
   content: "";
   position: absolute;
@@ -225,6 +224,18 @@ const handleScroll = () => {
 }
 
 .nav-link:hover::after {
+  width: 100%;
+}
+
+.nav-link.active {
+  color: rgb(31, 41, 55);
+}
+
+.dark .nav-link.active {
+  color: rgb(229, 231, 235);
+}
+
+.nav-link.active::after {
   width: 100%;
 }
 
