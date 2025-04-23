@@ -4,7 +4,7 @@
       <!-- Page Header -->
       <div class="max-w-3xl mx-auto text-center mb-16">
         <h1 class="text-4xl font-bold mb-6">Contact Us</h1>
-        <p class="text-xl text-gray-600">
+        <p class="text-xl text-gray-600 dark:text-gray-200">
           Have questions about CNC Portal? We're here to help.
         </p>
       </div>
@@ -21,12 +21,16 @@
                   <div class="flex items-center gap-2">
                     <UIcon
                       name="i-heroicons-chat-bubble-left-right"
-                      class="text-primary-500"
+                      class="text-emerald-600 dark:text-emerald-400"
                     />
-                    <h3 class="text-lg font-semibold">Community</h3>
+                    <h3
+                      class="text-lg font-semibold text-emerald-700 dark:text-emerald-400"
+                    >
+                      Community
+                    </h3>
                   </div>
                 </template>
-                <p class="text-gray-600">
+                <p class="text-gray-600 dark:text-gray-300">
                   Join our Discord community for real-time discussions and
                   support.
                 </p>
@@ -41,12 +45,16 @@
                   <div class="flex items-center gap-2">
                     <UIcon
                       name="i-heroicons-document-text"
-                      class="text-primary-500"
+                      class="text-emerald-600 dark:text-emerald-400"
                     />
-                    <h3 class="text-lg font-semibold">License</h3>
+                    <h3
+                      class="text-lg font-semibold text-emerald-700 dark:text-emerald-400"
+                    >
+                      License
+                    </h3>
                   </div>
                 </template>
-                <p class="text-gray-600">
+                <p class="text-gray-600 dark:text-gray-300">
                   We publish our code under a GPL2.0 license.
                 </p>
               </UCard>
@@ -55,12 +63,16 @@
                   <div class="flex items-center gap-2">
                     <UIcon
                       name="i-heroicons-document-text"
-                      class="text-primary-500"
+                      class="text-emerald-600 dark:text-emerald-400"
                     />
-                    <h3 class="text-lg font-semibold">Documentation</h3>
+                    <h3
+                      class="text-lg font-semibold text-emerald-700 dark:text-emerald-400"
+                    >
+                      Documentation
+                    </h3>
                   </div>
                 </template>
-                <p class="text-gray-600">
+                <p class="text-gray-600 dark:text-gray-300">
                   Check our comprehensive documentation for detailed
                   information.
                 </p>
@@ -77,7 +89,7 @@
             <UCard class="divide-y">
               <div class="py-4">
                 <h3 class="font-semibold mb-2">What is a CNC?</h3>
-                <p class="text-gray-600">
+                <p class="text-gray-600 dark:text-gray-300">
                   A Crypto Native Corporation (CNC) is a new type of
                   organization that operates primarily through blockchain
                   technology and smart contracts.
@@ -85,7 +97,7 @@
               </div>
               <div class="py-4">
                 <h3 class="font-semibold mb-2">How do I get started?</h3>
-                <p class="text-gray-600">
+                <p class="text-gray-600 dark:text-gray-300">
                   Click the "Get Started" button to begin creating your CNC. Our
                   guided process will help you set up your organization step by
                   step.
@@ -95,7 +107,7 @@
                 <h3 class="font-semibold mb-2">
                   Is technical knowledge required?
                 </h3>
-                <p class="text-gray-600">
+                <p class="text-gray-600 dark:text-gray-300">
                   No, our platform handles all the technical aspects. You just
                   need to understand your organization's goals and structure.
                 </p>

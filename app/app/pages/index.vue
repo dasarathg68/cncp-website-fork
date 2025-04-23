@@ -7,7 +7,7 @@
           <h1 class="text-4xl font-bold mb-6">
             Welcome to the Future of Corporate Organization
           </h1>
-          <p class="text-xl text-gray-600 mb-8">
+          <p class="text-xl text-gray-600 dark:text-gray-200 mb-8">
             CNC Portal enables the creation and management of Crypto Native
             Corporations - a revolutionary way to build and scale companies
             using blockchain technology.
@@ -31,7 +31,7 @@
             <template #header>
               <h3 class="text-xl font-semibold">Crypto Native Corporation</h3>
             </template>
-            <p class="text-gray-600">
+            <p class="text-gray-600 dark:text-gray-300">
               Crypto Native Corporations are a subtype of Decentralized
               Autonomous Organizations (DAOs). It is a digital first company
               organized like a classic corporation but with it's existence
@@ -51,7 +51,7 @@
             <template #header>
               <h3 class="text-xl font-semibold">Vision</h3>
             </template>
-            <p class="text-gray-600">
+            <p class="text-gray-600 dark:text-gray-300">
               Any knowledge worker, regardless of the local currency,
               participating in globally distributed, economically viable,
               digital first company that use blockchain technology as the
@@ -74,7 +74,7 @@
             <template #header>
               <h3 class="text-xl font-semibold">DAO</h3>
             </template>
-            <ul class="space-y-4">
+            <ul class="space-y-4 text-gray-600 dark:text-gray-300">
               <li>• No central authority. Run by smart contracts.</li>
               <li>
                 • Managed in the open with all decisions recorded on chain.
@@ -90,7 +90,7 @@
             <template #header>
               <h3 class="text-xl font-semibold">CNC</h3>
             </template>
-            <ul class="space-y-4">
+            <ul class="space-y-4 text-gray-600 dark:text-gray-300">
               <li>
                 • Central authority controlled by an elected Board of Directors.
               </li>
@@ -120,8 +120,13 @@
           <UCard>
             <template #header>
               <div class="flex items-center gap-2">
-                <UIcon name="i-heroicons-scale" class="text-primary-500" />
-                <h3 class="text-lg font-semibold">
+                <UIcon
+                  name="i-heroicons-scale"
+                  class="text-emerald-600 dark:text-emerald-400"
+                />
+                <h3
+                  class="text-lg font-semibold text-emerald-700 dark:text-emerald-400"
+                >
                   Scale Through Participation
                 </h3>
               </div>
@@ -134,8 +139,15 @@
           <UCard>
             <template #header>
               <div class="flex items-center gap-2">
-                <UIcon name="i-heroicons-globe-alt" class="text-primary-500" />
-                <h3 class="text-lg font-semibold">Global Access</h3>
+                <UIcon
+                  name="i-heroicons-globe-alt"
+                  class="text-emerald-600 dark:text-emerald-400"
+                />
+                <h3
+                  class="text-lg font-semibold text-emerald-700 dark:text-emerald-400"
+                >
+                  Global Access
+                </h3>
               </div>
             </template>
             <p>
@@ -148,9 +160,13 @@
               <div class="flex items-center gap-2">
                 <UIcon
                   name="i-heroicons-shield-check"
-                  class="text-primary-500"
+                  class="text-emerald-600 dark:text-emerald-400"
                 />
-                <h3 class="text-lg font-semibold">Efficient Structure</h3>
+                <h3
+                  class="text-lg font-semibold text-emerald-700 dark:text-emerald-400"
+                >
+                  Efficient Structure
+                </h3>
               </div>
             </template>
             <p>
@@ -166,7 +182,9 @@
     <section class="py-16">
       <div class="container mx-auto px-4 text-center">
         <h2 class="text-3xl font-bold mb-6">Ready to Build Your CNC?</h2>
-        <p class="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
+        <p
+          class="text-xl text-gray-600 dark:text-gray-200 mb-8 max-w-2xl mx-auto"
+        >
           Join the future of corporate organization and start building your
           distributed team today.
         </p>

@@ -4,7 +4,7 @@
       <!-- Page Header -->
       <div class="max-w-3xl mx-auto text-center mb-16">
         <h1 class="text-4xl font-bold mb-6">CNC Portal Features</h1>
-        <p class="text-xl text-gray-600">
+        <p class="text-xl text-gray-600 dark:text-gray-200">
           Everything you need to create and manage your Crypto Native
           Corporation
         </p>
@@ -21,12 +21,16 @@
                 <div class="flex items-center gap-2">
                   <UIcon
                     name="i-heroicons-document-text"
-                    class="text-primary-500"
+                    class="text-emerald-600 dark:text-emerald-400"
                   />
-                  <h3 class="text-lg font-semibold">Contract Creation</h3>
+                  <h3
+                    class="text-lg font-semibold text-emerald-700 dark:text-emerald-400"
+                  >
+                    Contract Creation
+                  </h3>
                 </div>
               </template>
-              <p class="text-gray-600">
+              <p class="text-gray-600 dark:text-gray-300">
                 Easily create and deploy smart contracts for employment
                 agreements, profit sharing, and governance structures.
               </p>
@@ -37,12 +41,16 @@
                 <div class="flex items-center gap-2">
                   <UIcon
                     name="i-heroicons-currency-dollar"
-                    class="text-primary-500"
+                    class="text-emerald-600 dark:text-emerald-400"
                   />
-                  <h3 class="text-lg font-semibold">Payment Management</h3>
+                  <h3
+                    class="text-lg font-semibold text-emerald-700 dark:text-emerald-400"
+                  >
+                    Payment Management
+                  </h3>
                 </div>
               </template>
-              <p class="text-gray-600">
+              <p class="text-gray-600 dark:text-gray-300">
                 Automate crypto payments, track distributions, and manage
                 payroll tokens with built-in exchange rate handling.
               </p>
@@ -53,12 +61,16 @@
                 <div class="flex items-center gap-2">
                   <UIcon
                     name="i-heroicons-chart-bar"
-                    class="text-primary-500"
+                    class="text-emerald-600 dark:text-emerald-400"
                   />
-                  <h3 class="text-lg font-semibold">Token Management</h3>
+                  <h3
+                    class="text-lg font-semibold text-emerald-700 dark:text-emerald-400"
+                  >
+                    Token Management
+                  </h3>
                 </div>
               </template>
-              <p class="text-gray-600">
+              <p class="text-gray-600 dark:text-gray-300">
                 Issue and manage ERC20 tokens, track ownership distribution, and
                 handle token transfers securely.
               </p>
@@ -75,12 +87,16 @@
                 <div class="flex items-center gap-2">
                   <UIcon
                     name="i-heroicons-user-group"
-                    class="text-primary-500"
+                    class="text-emerald-600 dark:text-emerald-400"
                   />
-                  <h3 class="text-lg font-semibold">Board Management</h3>
+                  <h3
+                    class="text-lg font-semibold text-emerald-700 dark:text-emerald-400"
+                  >
+                    Board Management
+                  </h3>
                 </div>
               </template>
-              <p class="text-gray-600">
+              <p class="text-gray-600 dark:text-gray-300">
                 Tools for board elections, decision tracking, and implementing
                 board-approved changes.
               </p>
@@ -91,12 +107,16 @@
                 <div class="flex items-center gap-2">
                   <UIcon
                     name="i-heroicons-check-badge"
-                    class="text-primary-500"
+                    class="text-emerald-600 dark:text-emerald-400"
                   />
-                  <h3 class="text-lg font-semibold">Voting System</h3>
+                  <h3
+                    class="text-lg font-semibold text-emerald-700 dark:text-emerald-400"
+                  >
+                    Voting System
+                  </h3>
                 </div>
               </template>
-              <p class="text-gray-600">
+              <p class="text-gray-600 dark:text-gray-300">
                 Secure voting mechanisms for corporate decisions, with automatic
                 execution of approved proposals.
               </p>
@@ -107,12 +127,16 @@
                 <div class="flex items-center gap-2">
                   <UIcon
                     name="i-heroicons-document-chart-bar"
-                    class="text-primary-500"
+                    class="text-emerald-600 dark:text-emerald-400"
                   />
-                  <h3 class="text-lg font-semibold">Reporting</h3>
+                  <h3
+                    class="text-lg font-semibold text-emerald-700 dark:text-emerald-400"
+                  >
+                    Reporting
+                  </h3>
                 </div>
               </template>
-              <p class="text-gray-600">
+              <p class="text-gray-600 dark:text-gray-300">
                 Comprehensive reporting tools for transparency in ownership,
                 voting, and financial distributions.
               </p>
@@ -129,18 +153,22 @@
                 <div class="flex items-center gap-2">
                   <UIcon
                     name="i-heroicons-puzzle-piece"
-                    class="text-primary-500"
+                    class="text-emerald-600 dark:text-emerald-400"
                   />
-                  <h3 class="text-lg font-semibold">
+                  <h3
+                    class="text-lg font-semibold text-emerald-700 dark:text-emerald-400"
+                  >
                     Third-party Integrations
                   </h3>
                 </div>
               </template>
-              <p class="text-gray-600">
+              <p class="text-gray-600 dark:text-gray-300">
                 Connect with popular development tools, payment systems, and
                 blockchain networks. Seamlessly integrate with:
               </p>
-              <ul class="list-disc pl-4 mt-4 space-y-2 text-gray-600">
+              <ul
+                class="list-disc pl-4 mt-4 space-y-2 text-gray-600 dark:text-gray-300"
+              >
                 <li>GitHub for code contribution tracking</li>
                 <li>Popular crypto wallets</li>
                 <li>Project management tools</li>
@@ -152,7 +180,7 @@
 
         <!-- CTA -->
         <div class="text-center">
-          <UButton color="primary" size="lg" to="/get-started">
+          <UButton size="lg" to="/get-started">
             Start Building Your CNC
           </UButton>
         </div>
