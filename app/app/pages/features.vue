@@ -59,7 +59,7 @@
                 </div>
               </template>
               <p class="text-gray-600">
-                Issue and manage SHER tokens, track ownership distribution, and
+                Issue and manage ERC20 tokens, track ownership distribution, and
                 handle token transfers securely.
               </p>
             </UCard>
@@ -120,60 +120,9 @@
           </div>
         </div>
 
-        <!-- Collaboration Features -->
-        <div class="mb-16">
-          <h2 class="text-2xl font-bold mb-8">Collaboration Features</h2>
-          <div class="grid md:grid-cols-3 gap-8">
-            <UCard class="p-6">
-              <template #header>
-                <div class="flex items-center gap-2">
-                  <UIcon name="i-heroicons-users" class="text-primary-500" />
-                  <h3 class="text-lg font-semibold">Team Management</h3>
-                </div>
-              </template>
-              <p class="text-gray-600">
-                Tools for organizing distributed teams, tracking contributions,
-                and managing permissions.
-              </p>
-            </UCard>
-
-            <UCard class="p-6">
-              <template #header>
-                <div class="flex items-center gap-2">
-                  <UIcon
-                    name="i-heroicons-presentation-chart-line"
-                    class="text-primary-500"
-                  />
-                  <h3 class="text-lg font-semibold">Project Tracking</h3>
-                </div>
-              </template>
-              <p class="text-gray-600">
-                Integrated project management tools with automatic token
-                distribution based on contributions.
-              </p>
-            </UCard>
-
-            <UCard class="p-6">
-              <template #header>
-                <div class="flex items-center gap-2">
-                  <UIcon
-                    name="i-heroicons-chat-bubble-left-right"
-                    class="text-primary-500"
-                  />
-                  <h3 class="text-lg font-semibold">Communication</h3>
-                </div>
-              </template>
-              <p class="text-gray-600">
-                Built-in communication tools for team coordination and corporate
-                announcements.
-              </p>
-            </UCard>
-          </div>
-        </div>
-
         <!-- Integration & Security -->
         <div class="mb-16">
-          <h2 class="text-2xl font-bold mb-8">Integration & Security</h2>
+          <h2 class="text-2xl font-bold mb-8">3rd Party Integrations</h2>
           <div class="grid md:grid-cols-2 gap-8">
             <UCard class="p-6">
               <template #header>
@@ -196,26 +145,7 @@
                 <li>Popular crypto wallets</li>
                 <li>Project management tools</li>
               </ul>
-            </UCard>
-
-            <UCard class="p-6">
-              <template #header>
-                <div class="flex items-center gap-2">
-                  <UIcon
-                    name="i-heroicons-shield-check"
-                    class="text-primary-500"
-                  />
-                  <h3 class="text-lg font-semibold">Security Features</h3>
-                </div>
-              </template>
-              <p class="text-gray-600">
-                Enterprise-grade security to protect your organization:
-              </p>
-              <ul class="list-disc pl-4 mt-4 space-y-2 text-gray-600">
-                <li>Multi-signature transactions</li>
-                <li>Role-based access control</li>
-                <li>Audit logging and compliance tools</li>
-              </ul>
+              <UButton variant="ghost" class="mt-4">Coming Soon</UButton>
             </UCard>
           </div>
         </div>
