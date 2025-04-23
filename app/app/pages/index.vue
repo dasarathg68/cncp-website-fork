@@ -43,7 +43,7 @@
             What is a CNC?
           </h2>
           <UCard
-            class="shadow-sm bg-white dark:bg-gray-800 transition-all duration-300 hover:shadow-lg hover:scale-[1.02] hover:bg-gray-50 dark:hover:bg-gray-800/80 backdrop-blur mb-8"
+            class="shadow-sm bg-white dark:bg-gray-800 transition-transform duration-300 hover:shadow-lg hover:scale-[1.02] mb-8"
           >
             <template #header>
               <h3
@@ -69,7 +69,7 @@
       <div class="container mx-auto px-4">
         <div class="max-w-3xl mx-auto">
           <UCard
-            class="shadow-sm bg-white dark:bg-gray-800 transition-all duration-300 hover:shadow-lg hover:scale-[1.02] hover:bg-gray-50 dark:hover:bg-gray-800/80 backdrop-blur mb-8"
+            class="shadow-sm bg-white dark:bg-gray-800 transition-transform duration-300 hover:shadow-lg hover:scale-[1.02] mb-8"
           >
             <template #header>
               <h3
@@ -100,7 +100,7 @@
         </h2>
         <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           <UCard
-            class="shadow-sm bg-white dark:bg-gray-800 transition-all duration-300 hover:shadow-lg hover:scale-[1.02] hover:bg-gray-50 dark:hover:bg-gray-800/80 backdrop-blur"
+            class="shadow-sm bg-white dark:bg-gray-800 transition-transform duration-300 hover:shadow-lg hover:scale-[1.02] mb-8"
           >
             <template #header>
               <h3
@@ -122,7 +122,7 @@
             </ul>
           </UCard>
           <UCard
-            class="shadow-sm bg-white dark:bg-gray-800 transition-all duration-300 hover:shadow-lg hover:scale-[1.02] hover:bg-gray-50 dark:hover:bg-gray-800/80 backdrop-blur"
+            class="shadow-sm bg-white dark:bg-gray-800 transition-transform duration-300 hover:shadow-lg hover:scale-[1.02] mb-8"
           >
             <template #header>
               <h3
@@ -163,7 +163,7 @@
         </h2>
         <div class="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
           <UCard
-            class="shadow-sm bg-white dark:bg-gray-800 transition-all duration-300 hover:shadow-lg hover:scale-[1.02] hover:bg-gray-50 dark:hover:bg-gray-800/80 backdrop-blur"
+            class="shadow-sm bg-white dark:bg-gray-800 transition-transform duration-300 hover:shadow-lg hover:scale-[1.02] mb-8"
           >
             <template #header>
               <div class="flex items-center gap-2">
@@ -184,7 +184,7 @@
             </p>
           </UCard>
           <UCard
-            class="shadow-sm bg-white dark:bg-gray-800 transition-all duration-300 hover:shadow-lg hover:scale-[1.02] hover:bg-gray-50 dark:hover:bg-gray-800/80 backdrop-blur"
+            class="shadow-sm bg-white dark:bg-gray-800 transition-transform duration-300 hover:shadow-lg hover:scale-[1.02] mb-8"
           >
             <template #header>
               <div class="flex items-center gap-2">
@@ -205,7 +205,7 @@
             </p>
           </UCard>
           <UCard
-            class="shadow-sm bg-white dark:bg-gray-800 transition-all duration-300 hover:shadow-lg hover:scale-[1.02] hover:bg-gray-50 dark:hover:bg-gray-800/80 backdrop-blur"
+            class="shadow-sm bg-white dark:bg-gray-800 transition-transform duration-300 hover:shadow-lg hover:scale-[1.02] mb-8"
           >
             <template #header>
               <div class="flex items-center gap-2">
