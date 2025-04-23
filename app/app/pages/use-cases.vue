@@ -19,13 +19,13 @@
               <template #header>
                 <div class="flex items-center gap-2">
                   <UIcon
-                    name="i-heroicons-chat-bubble-left-right"
+                    name="i-heroicons-cube-transparent"
                     class="text-primary-500"
                   />
                   <h3 class="text-lg font-semibold">AI Service Provider</h3>
                 </div>
               </template>
-              <p class="text-lg">
+              <p class="text-gray-600">
                 An entrepreneur would like to build an online service powered by
                 AI. However, none of his best employees have access to a
                 computer but not a robust banking system that can be trusted. He
@@ -50,13 +50,13 @@
               <template #header>
                 <div class="flex items-center gap-2">
                   <UIcon
-                    name="i-heroicons-chat-bubble-left-right"
+                    name="i-heroicons-paint-brush"
                     class="text-primary-500"
                   />
                   <h3 class="text-lg font-semibold">Digital Art Collective</h3>
                 </div>
               </template>
-              <p class="text-lg">
+              <p class="text-gray-600">
                 A visual artist who wants to start an art collective with five
                 of his friends. He will be the manager. Together they log into
                 the CNC Portal and create their solution. They divide their
@@ -79,13 +79,13 @@
               <template #header>
                 <div class="flex items-center gap-2">
                   <UIcon
-                    name="i-heroicons-chat-bubble-left-right"
+                    name="i-heroicons-globe-alt"
                     class="text-primary-500"
                   />
                   <h3 class="text-lg font-semibold">Open Source Development</h3>
                 </div>
               </template>
-              <p class="text-lg">
+              <p class="text-gray-600">
                 A digital nomad is working on an open-source project with 32
                 other contributors. A GitHub action is configured so that every
                 successful merge request is paid out using ownership tokens and
