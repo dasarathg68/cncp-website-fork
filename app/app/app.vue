@@ -36,6 +36,12 @@
                 .join(" ")
             }}
           </NuxtLink>
+          <NuxtLink
+            to="https://docs.google.com/document/d/10WzR-UBMJlE_2f5EPVRuKLLfoP-VgABZ/"
+            class="nav-link text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-200"
+          >
+            Litepaper
+          </NuxtLink>
 
           <UButton
             to="https://app.cncportal.io"
