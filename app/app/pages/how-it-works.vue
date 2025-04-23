@@ -247,7 +247,7 @@
           <UButton
             size="lg"
             to="https://app.cncportal.io"
-            class="bg-emerald-600 hover:bg-emerald-700 dark:bg-emerald-500 dark:hover:bg-emerald-600 text-white px-8 py-3 rounded-md text-lg font-medium"
+            class="bg-emerald-600 hover:bg-emerald-700 dark:bg-emerald-500 dark:hover:bg-emerald-600 px-8 py-3 rounded-md text-lg font-medium"
           >
             Start Your CNC Journey
           </UButton>
