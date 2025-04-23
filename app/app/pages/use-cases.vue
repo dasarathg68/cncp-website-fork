@@ -5,168 +5,106 @@
       <div class="max-w-3xl mx-auto text-center mb-16">
         <h1 class="text-4xl font-bold mb-6">CNC Use Cases</h1>
         <p class="text-xl text-gray-600">
-          Discover how different organizations can leverage the CNC model
+          Discover how different users and organizations can leverage the CNC
+          model
         </p>
       </div>
 
       <!-- Use Cases -->
-      <div class="max-w-6xl mx-auto">
+      <div class="max-w-7xl mx-auto space-y-24">
         <!-- AI Service Provider -->
-        <div class="mb-16">
-          <h2 class="text-2xl font-bold mb-8">AI Service Provider</h2>
-          <div class="grid md:grid-cols-3 gap-8">
-            <UCard class="p-6">
-              <template #header>
-                <div class="flex items-center gap-2">
-                  <UIcon name="i-heroicons-cpu-chip" class="text-primary-500" />
-                  <h3 class="text-lg font-semibold">Global Team</h3>
-                </div>
-              </template>
-              <p class="text-gray-600">
-                Build and manage a globally distributed AI service team with
-                seamless crypto payments and smart contract-based agreements.
-              </p>
-            </UCard>
-
-            <UCard class="p-6">
+        <div>
+          <div class="grid md:grid-cols-2 gap-8">
+            <UCard>
               <template #header>
                 <div class="flex items-center gap-2">
                   <UIcon
-                    name="i-heroicons-code-bracket"
+                    name="i-heroicons-chat-bubble-left-right"
                     class="text-primary-500"
                   />
-                  <h3 class="text-lg font-semibold">Smart Contracts</h3>
+                  <h3 class="text-lg font-semibold">AI Service Provider</h3>
                 </div>
               </template>
-              <p class="text-gray-600">
-                Automate employment agreements and payment distribution through
-                secure smart contracts.
+              <p class="text-lg">
+                An entrepreneur would like to build an online service powered by
+                AI. However, none of his best employees have access to a
+                computer but not a robust banking system that can be trusted. He
+                logs into the CNC Portal and initiates the creation of a smart
+                contract between him and his employee. He inputs the employee's
+                wallet address and sets the appropriate agreement. Once every
+                cycle, the employee receives a token in their wallet and the CNC
+                Portal tracks all payments. He could, if he wanted, distribute
+                ownership but for now he decides to retain exclusive ownership.
               </p>
             </UCard>
-
-            <UCard class="p-6">
-              <template #header>
-                <div class="flex items-center gap-2">
-                  <UIcon
-                    name="i-heroicons-currency-dollar"
-                    class="text-primary-500"
-                  />
-                  <h3 class="text-lg font-semibold">Crypto Payments</h3>
-                </div>
-              </template>
-              <p class="text-gray-600">
-                Process payments in cryptocurrency without banking restrictions,
-                with automated exchange rate handling.
-              </p>
+            <UCard class="flex items-center justify-center min-h-[300px]">
+              <p class="text-xl">Image</p>
             </UCard>
           </div>
         </div>
 
         <!-- Digital Art Collective -->
-        <div class="mb-16">
-          <h2 class="text-2xl font-bold mb-8">Digital Art Collective</h2>
-          <div class="grid md:grid-cols-3 gap-8">
-            <UCard class="p-6">
+        <div>
+          <div class="grid md:grid-cols-2 gap-8">
+            <UCard>
               <template #header>
                 <div class="flex items-center gap-2">
                   <UIcon
-                    name="i-heroicons-paint-brush"
+                    name="i-heroicons-chat-bubble-left-right"
                     class="text-primary-500"
                   />
-                  <h3 class="text-lg font-semibold">Creative Collaboration</h3>
+                  <h3 class="text-lg font-semibold">Digital Art Collective</h3>
                 </div>
               </template>
-              <p class="text-gray-600">
-                Enable seamless collaboration between artists with transparent
-                revenue sharing and digital asset management.
+              <p class="text-lg">
+                A visual artist who wants to start an art collective with five
+                of his friends. He will be the manager. Together they log into
+                the CNC Portal and create their solution. They divide their
+                ownership tokens 6 ways equally. As they start to produce art
+                and sell it in their fronted store, revenue is generated. As per
+                the rules of the smart contract, the profits are shared six ways
+                after expenses including his pay as the manager.
               </p>
             </UCard>
-
-            <UCard class="p-6">
-              <template #header>
-                <div class="flex items-center gap-2">
-                  <UIcon
-                    name="i-heroicons-currency-dollar"
-                    class="text-primary-500"
-                  />
-                  <h3 class="text-lg font-semibold">Equal Sharing</h3>
-                </div>
-              </template>
-              <p class="text-gray-600">
-                Implement fair profit distribution through SHER tokens and
-                automated revenue sharing.
-              </p>
-            </UCard>
-
-            <UCard class="p-6">
-              <template #header>
-                <div class="flex items-center gap-2">
-                  <UIcon name="i-heroicons-photo" class="text-primary-500" />
-                  <h3 class="text-lg font-semibold">Digital Assets</h3>
-                </div>
-              </template>
-              <p class="text-gray-600">
-                Manage and track digital art ownership, sales, and royalties
-                through blockchain technology.
-              </p>
+            <UCard class="flex items-center justify-center min-h-[300px]">
+              <p class="text-xl">Image</p>
             </UCard>
           </div>
         </div>
 
-        <!-- Open Source Project -->
-        <div class="mb-16">
-          <h2 class="text-2xl font-bold mb-8">Open Source Development</h2>
-          <div class="grid md:grid-cols-3 gap-8">
-            <UCard class="p-6">
+        <!-- Open Source Development -->
+        <div>
+          <div class="grid md:grid-cols-2 gap-8">
+            <UCard>
               <template #header>
                 <div class="flex items-center gap-2">
                   <UIcon
-                    name="i-heroicons-code-bracket"
+                    name="i-heroicons-chat-bubble-left-right"
                     class="text-primary-500"
                   />
-                  <h3 class="text-lg font-semibold">Open Source</h3>
+                  <h3 class="text-lg font-semibold">Open Source Development</h3>
                 </div>
               </template>
-              <p class="text-gray-600">
-                Transform open source projects into sustainable businesses with
-                token-based incentives.
+              <p class="text-lg">
+                A digital nomad is working on an open-source project with 32
+                other contributors. A GitHub action is configured so that every
+                successful merge request is paid out using ownership tokens and
+                only holders of ownership tokens can approve merge requests.
+                After 18 months of hard work, revenue has generated and the
+                ownership tokens are organized in a way that reflects that those
+                who contributed the most are rewarded the most tokens. As
+                revenue is generated, profits are paid proportionally.
               </p>
             </UCard>
-
-            <UCard class="p-6">
-              <template #header>
-                <div class="flex items-center gap-2">
-                  <UIcon name="i-heroicons-star" class="text-primary-500" />
-                  <h3 class="text-lg font-semibold">Merit-Based</h3>
-                </div>
-              </template>
-              <p class="text-gray-600">
-                Reward contributors based on their contributions through
-                automated token distribution.
-              </p>
-            </UCard>
-
-            <UCard class="p-6">
-              <template #header>
-                <div class="flex items-center gap-2">
-                  <UIcon
-                    name="i-heroicons-arrow-path"
-                    class="text-primary-500"
-                  />
-                  <h3 class="text-lg font-semibold">Sustainable</h3>
-                </div>
-              </template>
-              <p class="text-gray-600">
-                Create a sustainable funding model for open source development
-                through token economics.
-              </p>
+            <UCard class="flex items-center justify-center min-h-[300px]">
+              <p class="text-xl">Image</p>
             </UCard>
           </div>
         </div>
 
         <!-- CTA -->
-        <div class="text-center">
-          <UButton size="lg" to="/get-started">
+        <div class="text-center mt-16">
+          <UButton size="lg" to="https://app.cncportal.io">
             Start Your CNC Journey
           </UButton>
         </div>
