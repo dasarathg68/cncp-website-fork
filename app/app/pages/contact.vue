@@ -20,27 +20,6 @@
                 <template #header>
                   <div class="flex items-center gap-2">
                     <UIcon
-                      name="i-heroicons-envelope"
-                      class="text-primary-500"
-                    />
-                    <h3 class="text-lg font-semibold">Email Support</h3>
-                  </div>
-                </template>
-                <p class="text-gray-600">
-                  For general inquiries and support:
-                  <a
-                    href="mailto:dasarathg68@gmail.com"
-                    class="text-primary-900 hover:underline"
-                  >
-                    dasarathg68@gmail.com
-                  </a>
-                </p>
-              </UCard>
-
-              <UCard class="p-6">
-                <template #header>
-                  <div class="flex items-center gap-2">
-                    <UIcon
                       name="i-heroicons-chat-bubble-left-right"
                       class="text-primary-500"
                     />
@@ -57,7 +36,23 @@
                   </UButton>
                 </div>
               </UCard>
-
+              <UCard class="p-6">
+                <template #header>
+                  <div class="flex items-center gap-2">
+                    <UIcon
+                      name="i-heroicons-document-text"
+                      class="text-primary-500"
+                    />
+                    <h3 class="text-lg font-semibold">License</h3>
+                  </div>
+                </template>
+                <p class="text-gray-600">
+                  We publish our code under a GPL2.0 license.
+                </p>
+                <div class="mt-4">
+                  <UButton variant="ghost"> Coming Soon </UButton>
+                </div>
+              </UCard>
               <UCard class="p-6">
                 <template #header>
                   <div class="flex items-center gap-2">
@@ -73,7 +68,7 @@
                   information.
                 </p>
                 <div class="mt-4">
-                  <UButton variant="ghost" to="/docs"> View Docs </UButton>
+                  <UButton variant="ghost"> Coming Soon </UButton>
                 </div>
               </UCard>
             </div>
