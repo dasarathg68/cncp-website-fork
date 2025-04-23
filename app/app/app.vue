@@ -26,7 +26,11 @@
             v-for="link in ['features', 'how-it-works', 'use-cases', 'contact']"
             :key="link"
             :to="'/' + link"
-            class="nav-link text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-200"
+            class="relative nav-link text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-200"
+            :class="{
+              'text-gray-900 dark:text-gray-200 after:w-full':
+                $route.path.substring(1) === link,
+            }"
           >
             {{
               link
@@ -86,7 +90,11 @@
               ]"
               :key="link"
               :to="'/' + link"
-              class="nav-link block text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-200"
+              class="relative nav-link block text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-200"
+              :class="{
+                'text-gray-900 dark:text-gray-200 after:w-full':
+                  $route.path.substring(1) === link,
+              }"
               @click="isMenuOpen = false"
             >
               {{
@@ -205,11 +213,6 @@ const handleScroll = () => {
 }
 
 /* Hover animations for navigation links */
-.nav-link {
-  position: relative;
-  transition: color 0.3s ease;
-}
-
 .nav-link::after {
   content: "";
   position: absolute;
