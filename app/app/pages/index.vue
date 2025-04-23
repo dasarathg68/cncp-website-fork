@@ -4,10 +4,10 @@
     <section>
       <div class="container mx-auto px-4 py-8">
         <div class="max-w-3xl mx-auto text-center">
-          <h1 class="text-4xl font-bold mb-6 dark:text-white">
+          <h1 class="text-4xl font-bold mb-6 text-black dark:text-emerald-400">
             Welcome to the Future of Corporate Organization
           </h1>
-          <p class="text-xl text-gray-600 dark:text-gray-200 mb-8">
+          <p class="text-xl text-black dark:text-emerald-400 mb-8">
             CNC Portal enables the creation and management of Crypto Native
             Corporations - a revolutionary way to build and scale companies
             using blockchain technology.
@@ -29,19 +29,19 @@
       <div class="container mx-auto px-4">
         <div class="max-w-3xl mx-auto">
           <h2
-            class="text-3xl font-bold mb-8 text-center text-emerald-700 dark:text-emerald-400"
+            class="text-3xl font-bold mb-8 text-center text-black dark:text-emerald-400"
           >
             What is a CNC?
           </h2>
           <UCard class="shadow-sm dark:bg-gray-800 mb-8">
             <template #header>
               <h3
-                class="text-xl font-semibold text-emerald-700 dark:text-emerald-400"
+                class="text-xl font-semibold text-black dark:text-emerald-400"
               >
                 Crypto Native Corporation
               </h3>
             </template>
-            <p class="text-gray-600 dark:text-gray-300">
+            <p class="text-black dark:text-emerald-400">
               Crypto Native Corporations are a subtype of Decentralized
               Autonomous Organizations (DAOs). It is a digital first company
               organized like a classic corporation but with it's existence
@@ -60,12 +60,12 @@
           <UCard class="shadow-sm dark:bg-gray-800 mb-8">
             <template #header>
               <h3
-                class="text-xl font-semibold text-emerald-700 dark:text-emerald-400"
+                class="text-xl font-semibold text-black dark:text-emerald-400"
               >
                 Vision
               </h3>
             </template>
-            <p class="text-gray-600 dark:text-gray-300">
+            <p class="text-black dark:text-emerald-400">
               Any knowledge worker, regardless of the local currency,
               participating in globally distributed, economically viable,
               digital first company that use blockchain technology as the
@@ -81,7 +81,7 @@
     <section class="py-16">
       <div class="container mx-auto px-4">
         <h2
-          class="text-3xl font-bold mb-12 text-center text-emerald-700 dark:text-emerald-400"
+          class="text-3xl font-bold mb-12 text-center text-black dark:text-emerald-400"
         >
           CNC vs DAO: Key Differences
         </h2>
@@ -89,12 +89,12 @@
           <UCard class="shadow-sm dark:bg-gray-800">
             <template #header>
               <h3
-                class="text-xl font-semibold text-emerald-700 dark:text-emerald-400"
+                class="text-xl font-semibold text-black dark:text-emerald-400"
               >
                 DAO
               </h3>
             </template>
-            <ul class="space-y-4 text-gray-600 dark:text-gray-300">
+            <ul class="space-y-4 text-black dark:text-emerald-400">
               <li>• No central authority. Run by smart contracts.</li>
               <li>
                 • Managed in the open with all decisions recorded on chain.
@@ -109,12 +109,12 @@
           <UCard class="shadow-sm dark:bg-gray-800">
             <template #header>
               <h3
-                class="text-xl font-semibold text-emerald-700 dark:text-emerald-400"
+                class="text-xl font-semibold text-black dark:text-emerald-400"
               >
                 CNC
               </h3>
             </template>
-            <ul class="space-y-4 text-gray-600 dark:text-gray-300">
+            <ul class="space-y-4 text-black dark:text-emerald-400">
               <li>
                 • Central authority controlled by an elected Board of Directors.
               </li>
@@ -140,7 +140,7 @@
     <section class="py-16">
       <div class="container mx-auto px-4">
         <h2
-          class="text-3xl font-bold mb-12 text-center text-emerald-700 dark:text-emerald-400"
+          class="text-3xl font-bold mb-12 text-center text-black dark:text-emerald-400"
         >
           Why Choose CNC?
         </h2>
@@ -153,13 +153,13 @@
                   class="text-emerald-600 dark:text-emerald-400"
                 />
                 <h3
-                  class="text-lg font-semibold text-emerald-700 dark:text-emerald-400"
+                  class="text-lg font-semibold text-black dark:text-emerald-400"
                 >
                   Scale Through Participation
                 </h3>
               </div>
             </template>
-            <p>
+            <p class="text-black dark:text-emerald-400">
               Scale through micro-investments of labor from distributed
               knowledge workers, maintaining control and ownership.
             </p>
@@ -172,13 +172,13 @@
                   class="text-emerald-600 dark:text-emerald-400"
                 />
                 <h3
-                  class="text-lg font-semibold text-emerald-700 dark:text-emerald-400"
+                  class="text-lg font-semibold text-black dark:text-emerald-400"
                 >
                   Global Access
                 </h3>
               </div>
             </template>
-            <p>
+            <p class="text-black dark:text-emerald-400">
               Enable talented knowledge workers worldwide to participate as
               equal investors, regardless of local currency.
             </p>
@@ -191,13 +191,13 @@
                   class="text-emerald-600 dark:text-emerald-400"
                 />
                 <h3
-                  class="text-lg font-semibold text-emerald-700 dark:text-emerald-400"
+                  class="text-lg font-semibold text-black dark:text-emerald-400"
                 >
                   Efficient Structure
                 </h3>
               </div>
             </template>
-            <p>
+            <p class="text-black dark:text-emerald-400">
               Maintain traditional corporate structures while leveraging
               blockchain technology for transparency and efficiency.
             </p>
@@ -209,13 +209,11 @@
     <!-- CTA Section -->
     <section class="py-16">
       <div class="container mx-auto px-4 text-center">
-        <h2
-          class="text-3xl font-bold mb-6 text-emerald-700 dark:text-emerald-400"
-        >
+        <h2 class="text-3xl font-bold mb-6 text-black dark:text-emerald-400">
           Ready to Build Your CNC?
         </h2>
         <p
-          class="text-xl text-gray-600 dark:text-gray-200 mb-8 max-w-2xl mx-auto"
+          class="text-xl text-black dark:text-emerald-400 mb-8 max-w-2xl mx-auto"
         >
           Join the future of corporate organization and start building your
           distributed team today.

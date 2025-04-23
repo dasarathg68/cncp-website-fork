@@ -3,10 +3,10 @@
     <div class="container mx-auto px-4">
       <!-- Page Header -->
       <div class="max-w-3xl mx-auto text-center mb-16">
-        <h1 class="text-4xl font-bold mb-6 dark:text-white">
+        <h1 class="text-4xl font-bold mb-6 text-black dark:text-emerald-400">
           How CNC Portal Works
         </h1>
-        <p class="text-xl text-gray-600 dark:text-gray-400">
+        <p class="text-xl text-black dark:text-emerald-400">
           A step-by-step guide to creating and managing your Crypto Native
           Corporation
         </p>
@@ -28,19 +28,19 @@
                 <UCard class="shadow-sm dark:bg-gray-800">
                   <template #header>
                     <h3
-                      class="text-xl font-semibold text-emerald-700 dark:text-emerald-400"
+                      class="text-xl font-semibold text-black dark:text-emerald-400"
                     >
                       Initial Concept
                     </h3>
                   </template>
-                  <p class="text-gray-600 dark:text-gray-300 mb-4">
+                  <p class="text-black dark:text-emerald-400 mb-4">
                     A founding team or individual develops an innovative idea
                     for a distributed organization.
                   </p>
                   <div
                     class="bg-emerald-50 dark:bg-emerald-900/50 p-4 rounded-lg"
                   >
-                    <ul class="space-y-2 text-gray-700 dark:text-gray-300">
+                    <ul class="space-y-2 text-black dark:text-emerald-400">
                       <li class="flex items-center">
                         <UIcon
                           name="i-heroicons-light-bulb"
@@ -76,19 +76,19 @@
                 <UCard class="shadow-sm dark:bg-gray-800">
                   <template #header>
                     <h3
-                      class="text-xl font-semibold text-emerald-700 dark:text-emerald-400"
+                      class="text-xl font-semibold text-black dark:text-emerald-400"
                     >
                       Community Building
                     </h3>
                   </template>
-                  <p class="text-gray-600 dark:text-gray-300 mb-4">
+                  <p class="text-black dark:text-emerald-400 mb-4">
                     Gather micro investments from a distributed pool of
                     knowledge workers who believe in the vision.
                   </p>
                   <div
                     class="bg-emerald-50 dark:bg-emerald-900/50 p-4 rounded-lg"
                   >
-                    <ul class="space-y-2 text-gray-700 dark:text-gray-300">
+                    <ul class="space-y-2 text-black dark:text-emerald-400">
                       <li class="flex items-center">
                         <UIcon
                           name="i-heroicons-user-group"
@@ -116,19 +116,19 @@
                 <UCard class="shadow-sm dark:bg-gray-800">
                   <template #header>
                     <h3
-                      class="text-xl font-semibold text-emerald-700 dark:text-emerald-400"
+                      class="text-xl font-semibold text-black dark:text-emerald-400"
                     >
                       Organizational Structure
                     </h3>
                   </template>
-                  <p class="text-gray-600 dark:text-gray-300 mb-4">
+                  <p class="text-black dark:text-emerald-400 mb-4">
                     Establish a distributed corporate structure with clear
                     governance and operational frameworks.
                   </p>
                   <div
                     class="bg-emerald-50 dark:bg-emerald-900/50 p-4 rounded-lg"
                   >
-                    <ul class="space-y-2 text-gray-700 dark:text-gray-300">
+                    <ul class="space-y-2 text-black dark:text-emerald-400">
                       <li class="flex items-center">
                         <UIcon
                           name="i-heroicons-chart-bar"
@@ -164,19 +164,19 @@
                 <UCard class="shadow-sm dark:bg-gray-800">
                   <template #header>
                     <h3
-                      class="text-xl font-semibold text-emerald-700 dark:text-emerald-400"
+                      class="text-xl font-semibold text-black dark:text-emerald-400"
                     >
                       Growth & Scale
                     </h3>
                   </template>
-                  <p class="text-gray-600 dark:text-gray-300 mb-4">
+                  <p class="text-black dark:text-emerald-400 mb-4">
                     Scale operations through pooled labor and community synergy
                     while maintaining decentralized management.
                   </p>
                   <div
                     class="bg-emerald-50 dark:bg-emerald-900/50 p-4 rounded-lg"
                   >
-                    <ul class="space-y-2 text-gray-700 dark:text-gray-300">
+                    <ul class="space-y-2 text-black dark:text-emerald-400">
                       <li class="flex items-center">
                         <UIcon
                           name="i-heroicons-arrow-trending-up"
@@ -204,19 +204,19 @@
                 <UCard class="shadow-sm dark:bg-gray-800">
                   <template #header>
                     <h3
-                      class="text-xl font-semibold text-emerald-700 dark:text-emerald-400"
+                      class="text-xl font-semibold text-black dark:text-emerald-400"
                     >
                       Value Distribution
                     </h3>
                   </template>
-                  <p class="text-gray-600 dark:text-gray-300 mb-4">
+                  <p class="text-black dark:text-emerald-400 mb-4">
                     Profits and value are distributed back to the community of
                     investors and workers.
                   </p>
                   <div
                     class="bg-emerald-50 dark:bg-emerald-900/50 p-4 rounded-lg"
                   >
-                    <ul class="space-y-2 text-gray-700 dark:text-gray-300">
+                    <ul class="space-y-2 text-black dark:text-emerald-400">
                       <li class="flex items-center">
                         <UIcon
                           name="i-heroicons-banknotes"

@@ -3,10 +3,10 @@
     <div class="container mx-auto px-4">
       <!-- Page Header -->
       <div class="max-w-3xl mx-auto text-center mb-16">
-        <h1 class="text-4xl font-bold mb-6 dark:text-white">
+        <h1 class="text-4xl font-bold mb-6 text-black dark:text-emerald-400">
           CNC Portal Features
         </h1>
-        <p class="text-xl text-gray-600 dark:text-gray-200">
+        <p class="text-xl text-black dark:text-emerald-400">
           Everything you need to create and manage your Crypto Native
           Corporation
         </p>
@@ -16,9 +16,7 @@
       <div class="max-w-6xl mx-auto">
         <!-- Smart Contract Management -->
         <div class="mb-16">
-          <h2
-            class="text-2xl font-bold mb-8 text-emerald-700 dark:text-emerald-400"
-          >
+          <h2 class="text-2xl font-bold mb-8 text-black dark:text-emerald-400">
             Smart Contract Management
           </h2>
           <div class="grid md:grid-cols-3 gap-8">
@@ -30,13 +28,13 @@
                     class="text-emerald-600 dark:text-emerald-400"
                   />
                   <h3
-                    class="text-lg font-semibold text-emerald-700 dark:text-emerald-400"
+                    class="text-lg font-semibold text-black dark:text-emerald-400"
                   >
                     Contract Creation
                   </h3>
                 </div>
               </template>
-              <p class="text-gray-600 dark:text-gray-300">
+              <p class="text-black dark:text-emerald-400">
                 Easily create and deploy smart contracts for employment
                 agreements, profit sharing, and governance structures.
               </p>
@@ -50,13 +48,13 @@
                     class="text-emerald-600 dark:text-emerald-400"
                   />
                   <h3
-                    class="text-lg font-semibold text-emerald-700 dark:text-emerald-400"
+                    class="text-lg font-semibold text-black dark:text-emerald-400"
                   >
                     Payment Management
                   </h3>
                 </div>
               </template>
-              <p class="text-gray-600 dark:text-gray-300">
+              <p class="text-black dark:text-emerald-400">
                 Automate crypto payments, track distributions, and manage
                 payroll tokens with built-in exchange rate handling.
               </p>
@@ -70,13 +68,13 @@
                     class="text-emerald-600 dark:text-emerald-400"
                   />
                   <h3
-                    class="text-lg font-semibold text-emerald-700 dark:text-emerald-400"
+                    class="text-lg font-semibold text-black dark:text-emerald-400"
                   >
                     Token Management
                   </h3>
                 </div>
               </template>
-              <p class="text-gray-600 dark:text-gray-300">
+              <p class="text-black dark:text-emerald-400">
                 Issue and manage ERC20 tokens, track ownership distribution, and
                 handle token transfers securely.
               </p>
@@ -86,9 +84,7 @@
 
         <!-- Governance Tools -->
         <div class="mb-16">
-          <h2
-            class="text-2xl font-bold mb-8 text-emerald-700 dark:text-emerald-400"
-          >
+          <h2 class="text-2xl font-bold mb-8 text-black dark:text-emerald-400">
             Governance Tools
           </h2>
           <div class="grid md:grid-cols-3 gap-8">
@@ -100,13 +96,13 @@
                     class="text-emerald-600 dark:text-emerald-400"
                   />
                   <h3
-                    class="text-lg font-semibold text-emerald-700 dark:text-emerald-400"
+                    class="text-lg font-semibold text-black dark:text-emerald-400"
                   >
                     Board Management
                   </h3>
                 </div>
               </template>
-              <p class="text-gray-600 dark:text-gray-300">
+              <p class="text-black dark:text-emerald-400">
                 Tools for board elections, decision tracking, and implementing
                 board-approved changes.
               </p>
@@ -120,13 +116,13 @@
                     class="text-emerald-600 dark:text-emerald-400"
                   />
                   <h3
-                    class="text-lg font-semibold text-emerald-700 dark:text-emerald-400"
+                    class="text-lg font-semibold text-black dark:text-emerald-400"
                   >
                     Voting System
                   </h3>
                 </div>
               </template>
-              <p class="text-gray-600 dark:text-gray-300">
+              <p class="text-black dark:text-emerald-400">
                 Secure voting mechanisms for corporate decisions, with automatic
                 execution of approved proposals.
               </p>
@@ -140,13 +136,13 @@
                     class="text-emerald-600 dark:text-emerald-400"
                   />
                   <h3
-                    class="text-lg font-semibold text-emerald-700 dark:text-emerald-400"
+                    class="text-lg font-semibold text-black dark:text-emerald-400"
                   >
                     Reporting
                   </h3>
                 </div>
               </template>
-              <p class="text-gray-600 dark:text-gray-300">
+              <p class="text-black dark:text-emerald-400">
                 Comprehensive reporting tools for transparency in ownership,
                 voting, and financial distributions.
               </p>
@@ -156,9 +152,7 @@
 
         <!-- Integration & Security -->
         <div class="mb-16">
-          <h2
-            class="text-2xl font-bold mb-8 text-emerald-700 dark:text-emerald-400"
-          >
+          <h2 class="text-2xl font-bold mb-8 text-black dark:text-emerald-400">
             3rd Party Integrations
           </h2>
           <div class="grid md:grid-cols-2 gap-8">
@@ -170,13 +164,13 @@
                     class="text-emerald-600 dark:text-emerald-400"
                   />
                   <h3
-                    class="text-lg font-semibold text-emerald-700 dark:text-emerald-400"
+                    class="text-lg font-semibold text-black dark:text-emerald-400"
                   >
                     Third-party Integrations
                   </h3>
                 </div>
               </template>
-              <p class="text-gray-600 dark:text-gray-300">
+              <p class="text-black dark:text-emerald-400">
                 Connect with popular development tools, payment systems, and
                 blockchain networks. Seamlessly integrate with:
               </p>
@@ -184,7 +178,7 @@
                 class="bg-emerald-50 dark:bg-emerald-900/50 p-4 rounded-lg mt-4"
               >
                 <ul
-                  class="list-disc pl-4 mt-4 space-y-2 text-gray-600 dark:text-gray-300"
+                  class="list-disc pl-4 mt-4 space-y-2 text-black dark:text-emerald-400"
                 >
                   <li>GitHub for code contribution tracking</li>
                   <li>Popular crypto wallets</li>

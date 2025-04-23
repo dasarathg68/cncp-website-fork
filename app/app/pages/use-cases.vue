@@ -3,8 +3,10 @@
     <div class="container mx-auto px-4">
       <!-- Page Header -->
       <div class="max-w-3xl mx-auto text-center mb-16">
-        <h1 class="text-4xl font-bold mb-6 dark:text-white">CNC Use Cases</h1>
-        <p class="text-xl text-gray-600 dark:text-gray-200">
+        <h1 class="text-4xl font-bold mb-6 text-black dark:text-emerald-400">
+          CNC Use Cases
+        </h1>
+        <p class="text-xl text-black dark:text-emerald-400">
           Discover how different users and organizations can leverage the CNC
           model
         </p>
@@ -23,13 +25,13 @@
                     class="text-emerald-600 dark:text-emerald-400"
                   />
                   <h3
-                    class="text-lg font-semibold text-emerald-700 dark:text-emerald-400"
+                    class="text-lg font-semibold text-black dark:text-emerald-400"
                   >
                     AI Service Provider
                   </h3>
                 </div>
               </template>
-              <p class="text-gray-600 dark:text-gray-300">
+              <p class="text-black dark:text-emerald-400">
                 An entrepreneur would like to build an online service powered by
                 AI. However, none of his best employees have access to a
                 computer but not a robust banking system that can be trusted. He
@@ -44,7 +46,7 @@
             <UCard
               class="shadow-sm dark:bg-gray-800 flex items-center justify-center min-h-[300px]"
             >
-              <p class="text-xl dark:text-gray-400">Image</p>
+              <p class="text-xl text-black dark:text-emerald-400">Image</p>
             </UCard>
           </div>
         </div>
@@ -60,13 +62,13 @@
                     class="text-emerald-600 dark:text-emerald-400"
                   />
                   <h3
-                    class="text-lg font-semibold text-emerald-700 dark:text-emerald-400"
+                    class="text-lg font-semibold text-black dark:text-emerald-400"
                   >
                     Digital Art Collective
                   </h3>
                 </div>
               </template>
-              <p class="text-gray-600 dark:text-gray-300">
+              <p class="text-black dark:text-emerald-400">
                 A visual artist who wants to start an art collective with five
                 of his friends. He will be the manager. Together they log into
                 the CNC Portal and create their solution. They divide their
@@ -79,7 +81,7 @@
             <UCard
               class="shadow-sm dark:bg-gray-800 flex items-center justify-center min-h-[300px]"
             >
-              <p class="text-xl dark:text-gray-400">Image</p>
+              <p class="text-xl text-black dark:text-emerald-400">Image</p>
             </UCard>
           </div>
         </div>
@@ -95,13 +97,13 @@
                     class="text-emerald-600 dark:text-emerald-400"
                   />
                   <h3
-                    class="text-lg font-semibold text-emerald-700 dark:text-emerald-400"
+                    class="text-lg font-semibold text-black dark:text-emerald-400"
                   >
                     Open Source Development
                   </h3>
                 </div>
               </template>
-              <p class="text-gray-600 dark:text-gray-300">
+              <p class="text-black dark:text-emerald-400">
                 A digital nomad is working on an open-source project with 32
                 other contributors. A GitHub action is configured so that every
                 successful merge request is paid out using ownership tokens and
@@ -115,7 +117,7 @@
             <UCard
               class="shadow-sm dark:bg-gray-800 flex items-center justify-center min-h-[300px]"
             >
-              <p class="text-xl dark:text-gray-400">Image</p>
+              <p class="text-xl text-black dark:text-emerald-400">Image</p>
             </UCard>
           </div>
         </div>
