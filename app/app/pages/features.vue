@@ -6,7 +6,7 @@
         <h1 class="text-4xl font-bold mb-6 text-black dark:text-emerald-400">
           CNC Portal Features
         </h1>
-        <p class="text-xl text-black dark:text-emerald-400">
+        <p class="text-xl text-black dark:text-white">
           Everything you need to create and manage your Crypto Native
           Corporation
         </p>
@@ -34,7 +34,7 @@
                   </h3>
                 </div>
               </template>
-              <p class="text-black dark:text-emerald-400">
+              <p class="text-black dark:text-white">
                 Easily create and deploy smart contracts for employment
                 agreements, profit sharing, and governance structures.
               </p>
@@ -54,7 +54,7 @@
                   </h3>
                 </div>
               </template>
-              <p class="text-black dark:text-emerald-400">
+              <p class="text-black dark:text-white">
                 Automate crypto payments, track distributions, and manage
                 payroll tokens with built-in exchange rate handling.
               </p>
@@ -74,7 +74,7 @@
                   </h3>
                 </div>
               </template>
-              <p class="text-black dark:text-emerald-400">
+              <p class="text-black dark:text-white">
                 Issue and manage ERC20 tokens, track ownership distribution, and
                 handle token transfers securely.
               </p>
@@ -102,7 +102,7 @@
                   </h3>
                 </div>
               </template>
-              <p class="text-black dark:text-emerald-400">
+              <p class="text-black dark:text-white">
                 Tools for board elections, decision tracking, and implementing
                 board-approved changes.
               </p>
@@ -122,7 +122,7 @@
                   </h3>
                 </div>
               </template>
-              <p class="text-black dark:text-emerald-400">
+              <p class="text-black dark:text-white">
                 Secure voting mechanisms for corporate decisions, with automatic
                 execution of approved proposals.
               </p>
@@ -142,7 +142,7 @@
                   </h3>
                 </div>
               </template>
-              <p class="text-black dark:text-emerald-400">
+              <p class="text-black dark:text-white">
                 Comprehensive reporting tools for transparency in ownership,
                 voting, and financial distributions.
               </p>
@@ -170,16 +170,14 @@
                   </h3>
                 </div>
               </template>
-              <p class="text-black dark:text-emerald-400">
+              <p class="text-black dark:text-white">
                 Connect with popular development tools, payment systems, and
                 blockchain networks. Seamlessly integrate with:
               </p>
               <div
                 class="bg-emerald-50 dark:bg-emerald-900/50 p-4 rounded-lg mt-4"
               >
-                <ul
-                  class="list-disc pl-4 mt-4 space-y-2 text-black dark:text-emerald-400"
-                >
+                <ul class="list-disc pl-4 space-y-2 text-black dark:text-white">
                   <li>GitHub for code contribution tracking</li>
                   <li>Popular crypto wallets</li>
                   <li>Project management tools</li>

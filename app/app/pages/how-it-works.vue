@@ -6,7 +6,7 @@
         <h1 class="text-4xl font-bold mb-6 text-black dark:text-emerald-400">
           How CNC Portal Works
         </h1>
-        <p class="text-xl text-black dark:text-emerald-400">
+        <p class="text-xl text-black dark:text-white">
           A step-by-step guide to creating and managing your Crypto Native
           Corporation
         </p>
@@ -33,14 +33,14 @@
                       Initial Concept
                     </h3>
                   </template>
-                  <p class="text-black dark:text-emerald-400 mb-4">
+                  <p class="text-black dark:text-white mb-4">
                     A founding team or individual develops an innovative idea
                     for a distributed organization.
                   </p>
                   <div
                     class="bg-emerald-50 dark:bg-emerald-900/50 p-4 rounded-lg"
                   >
-                    <ul class="space-y-2 text-black dark:text-emerald-400">
+                    <ul class="space-y-2 text-black dark:text-white">
                       <li class="flex items-center">
                         <UIcon
                           name="i-heroicons-light-bulb"
@@ -81,14 +81,14 @@
                       Community Building
                     </h3>
                   </template>
-                  <p class="text-black dark:text-emerald-400 mb-4">
+                  <p class="text-black dark:text-white mb-4">
                     Gather micro investments from a distributed pool of
                     knowledge workers who believe in the vision.
                   </p>
                   <div
                     class="bg-emerald-50 dark:bg-emerald-900/50 p-4 rounded-lg"
                   >
-                    <ul class="space-y-2 text-black dark:text-emerald-400">
+                    <ul class="space-y-2 text-black dark:text-white">
                       <li class="flex items-center">
                         <UIcon
                           name="i-heroicons-user-group"
@@ -121,14 +121,14 @@
                       Organizational Structure
                     </h3>
                   </template>
-                  <p class="text-black dark:text-emerald-400 mb-4">
+                  <p class="text-black dark:text-white mb-4">
                     Establish a distributed corporate structure with clear
                     governance and operational frameworks.
                   </p>
                   <div
                     class="bg-emerald-50 dark:bg-emerald-900/50 p-4 rounded-lg"
                   >
-                    <ul class="space-y-2 text-black dark:text-emerald-400">
+                    <ul class="space-y-2 text-black dark:text-white">
                       <li class="flex items-center">
                         <UIcon
                           name="i-heroicons-chart-bar"
@@ -169,14 +169,14 @@
                       Growth & Scale
                     </h3>
                   </template>
-                  <p class="text-black dark:text-emerald-400 mb-4">
+                  <p class="text-black dark:text-white mb-4">
                     Scale operations through pooled labor and community synergy
                     while maintaining decentralized management.
                   </p>
                   <div
                     class="bg-emerald-50 dark:bg-emerald-900/50 p-4 rounded-lg"
                   >
-                    <ul class="space-y-2 text-black dark:text-emerald-400">
+                    <ul class="space-y-2 text-black dark:text-white">
                       <li class="flex items-center">
                         <UIcon
                           name="i-heroicons-arrow-trending-up"
@@ -209,14 +209,14 @@
                       Value Distribution
                     </h3>
                   </template>
-                  <p class="text-black dark:text-emerald-400 mb-4">
+                  <p class="text-black dark:text-white mb-4">
                     Profits and value are distributed back to the community of
                     investors and workers.
                   </p>
                   <div
                     class="bg-emerald-50 dark:bg-emerald-900/50 p-4 rounded-lg"
                   >
-                    <ul class="space-y-2 text-black dark:text-emerald-400">
+                    <ul class="space-y-2 text-black dark:text-white">
                       <li class="flex items-center">
                         <UIcon
                           name="i-heroicons-banknotes"

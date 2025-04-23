@@ -4,10 +4,10 @@
     <section>
       <div class="container mx-auto px-4 py-8">
         <div class="max-w-3xl mx-auto text-center">
-          <h1 class="text-4xl font-bold mb-6 text-black dark:text-emerald-400">
+          <h1 class="text-4xl font-bold mb-6 text-black dark:text-white">
             Welcome to the Future of Corporate Organization
           </h1>
-          <p class="text-xl text-black dark:text-emerald-400 mb-8">
+          <p class="text-xl text-black dark:text-white mb-8">
             CNC Portal enables the creation and management of Crypto Native
             Corporations - a revolutionary way to build and scale companies
             using blockchain technology.
@@ -41,7 +41,7 @@
                 Crypto Native Corporation
               </h3>
             </template>
-            <p class="text-black dark:text-emerald-400">
+            <p class="text-black dark:text-white">
               Crypto Native Corporations are a subtype of Decentralized
               Autonomous Organizations (DAOs). It is a digital first company
               organized like a classic corporation but with it's existence
@@ -65,7 +65,7 @@
                 Vision
               </h3>
             </template>
-            <p class="text-black dark:text-emerald-400">
+            <p class="text-black dark:text-white">
               Any knowledge worker, regardless of the local currency,
               participating in globally distributed, economically viable,
               digital first company that use blockchain technology as the
@@ -94,7 +94,7 @@
                 DAO
               </h3>
             </template>
-            <ul class="space-y-4 text-black dark:text-emerald-400">
+            <ul class="space-y-4 text-black dark:text-white">
               <li>• No central authority. Run by smart contracts.</li>
               <li>
                 • Managed in the open with all decisions recorded on chain.
@@ -114,7 +114,7 @@
                 CNC
               </h3>
             </template>
-            <ul class="space-y-4 text-black dark:text-emerald-400">
+            <ul class="space-y-4 text-black dark:text-white">
               <li>
                 • Central authority controlled by an elected Board of Directors.
               </li>
@@ -159,7 +159,7 @@
                 </h3>
               </div>
             </template>
-            <p class="text-black dark:text-emerald-400">
+            <p class="text-black dark:text-white">
               Scale through micro-investments of labor from distributed
               knowledge workers, maintaining control and ownership.
             </p>
@@ -178,7 +178,7 @@
                 </h3>
               </div>
             </template>
-            <p class="text-black dark:text-emerald-400">
+            <p class="text-black dark:text-white">
               Enable talented knowledge workers worldwide to participate as
               equal investors, regardless of local currency.
             </p>
@@ -197,7 +197,7 @@
                 </h3>
               </div>
             </template>
-            <p class="text-black dark:text-emerald-400">
+            <p class="text-black dark:text-white">
               Maintain traditional corporate structures while leveraging
               blockchain technology for transparency and efficiency.
             </p>
@@ -212,9 +212,7 @@
         <h2 class="text-3xl font-bold mb-6 text-black dark:text-emerald-400">
           Ready to Build Your CNC?
         </h2>
-        <p
-          class="text-xl text-black dark:text-emerald-400 mb-8 max-w-2xl mx-auto"
-        >
+        <p class="text-xl text-black dark:text-white mb-8 max-w-2xl mx-auto">
           Join the future of corporate organization and start building your
           distributed team today.
         </p>

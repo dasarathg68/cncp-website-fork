@@ -6,7 +6,7 @@
         <h1 class="text-4xl font-bold mb-6 text-black dark:text-emerald-400">
           Contact Us
         </h1>
-        <p class="text-xl text-black dark:text-emerald-400">
+        <p class="text-xl text-black dark:text-white">
           Have questions about CNC Portal? We're here to help.
         </p>
       </div>
@@ -36,7 +36,7 @@
                     </h3>
                   </div>
                 </template>
-                <p class="text-black dark:text-emerald-400">
+                <p class="text-black dark:text-white">
                   Join our Discord community for real-time discussions and
                   support.
                 </p>
@@ -60,7 +60,7 @@
                     </h3>
                   </div>
                 </template>
-                <p class="text-black dark:text-emerald-400">
+                <p class="text-black dark:text-white">
                   We publish our code under a GPL2.0 license.
                 </p>
               </UCard>
@@ -78,7 +78,7 @@
                     </h3>
                   </div>
                 </template>
-                <p class="text-black dark:text-emerald-400">
+                <p class="text-black dark:text-white">
                   Check our comprehensive documentation for detailed
                   information.
                 </p>
@@ -100,30 +100,30 @@
               class="shadow-sm dark:bg-gray-800 divide-y dark:divide-gray-700"
             >
               <div class="py-4">
-                <h3 class="font-semibold mb-2 text-black dark:text-emerald-400">
+                <h3 class="font-semibold mb-2 text-black dark:text-white">
                   What is a CNC?
                 </h3>
-                <p class="text-black dark:text-emerald-400">
+                <p class="text-black dark:text-white">
                   A Crypto Native Corporation (CNC) is a new type of
                   organization that operates primarily through blockchain
                   technology and smart contracts.
                 </p>
               </div>
               <div class="py-4">
-                <h3 class="font-semibold mb-2 text-black dark:text-emerald-400">
+                <h3 class="font-semibold mb-2 text-black dark:text-white">
                   How do I get started?
                 </h3>
-                <p class="text-black dark:text-emerald-400">
+                <p class="text-black dark:text-white">
                   Click the "Get Started" button to begin creating your CNC. Our
                   guided process will help you set up your organization step by
                   step.
                 </p>
               </div>
               <div class="py-4">
-                <h3 class="font-semibold mb-2 text-black dark:text-emerald-400">
+                <h3 class="font-semibold mb-2 text-black dark:text-white">
                   Is technical knowledge required?
                 </h3>
-                <p class="text-black dark:text-emerald-400">
+                <p class="text-black dark:text-white">
                   No, our platform handles all the technical aspects. You just
                   need to understand your organization's goals and structure.
                 </p>
