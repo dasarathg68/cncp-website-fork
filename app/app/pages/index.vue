@@ -32,13 +32,33 @@
               <h3 class="text-xl font-semibold">Crypto Native Corporation</h3>
             </template>
             <p class="text-gray-600">
-              A CNC exists as a set of smart contracts on the blockchain,
-              accepting crypto as payment, paying employees in crypto,
-              distributing dividends in crypto, and carrying on all other
-              functions of a standard corporation while only switching to fiat
-              currency when engaging with outside service providers.
+              Crypto Native Corporations are a subtype of Decentralized
+              Autonomous Organizations (DAOs). It is a digital first company
+              organized like a classic corporation but with it's existence
+              represented on a blockchain instead of in the corporate registry
+              of any one national jurisdiction. From the very beginning, a CNC
+              can have a globally distributed ownership and generalized
+              membership.
             </p>
           </UCard>
+        </div>
+      </div>
+    </section>
+    <section class="py-16">
+      <div class="container mx-auto px-4">
+        <div class="max-w-3xl mx-auto">
+          <UCard class="mb-8">
+            <template #header>
+              <h3 class="text-xl font-semibold">Vision</h3>
+            </template>
+            <p class="text-gray-600">
+              Any knowledge worker, regardless of the local currency,
+              participating in globally distributed, economically viable,
+              digital first company that use blockchain technology as the
+              primary mechanism of value exchange, wealth maintenance, and
+              symbolic representation of corporate existence.
+            </p></UCard
+          >
         </div>
       </div>
     </section>
@@ -101,7 +121,9 @@
             <template #header>
               <div class="flex items-center gap-2">
                 <UIcon name="i-heroicons-scale" class="text-primary-500" />
-                <h3 class="text-lg font-semibold">Equitable Scaling</h3>
+                <h3 class="text-lg font-semibold">
+                  Scale Through Participation
+                </h3>
               </div>
             </template>
             <p>
@@ -128,7 +150,7 @@
                   name="i-heroicons-shield-check"
                   class="text-primary-500"
                 />
-                <h3 class="text-lg font-semibold">Secure Structure</h3>
+                <h3 class="text-lg font-semibold">Efficient Structure</h3>
               </div>
             </template>
             <p>
@@ -148,7 +170,9 @@
           Join the future of corporate organization and start building your
           distributed team today.
         </p>
-        <UButton size="lg" to="/get-started"> Start Building </UButton>
+        <UButton size="lg" to="https://app.cncportal.io">
+          Start Building
+        </UButton>
       </div>
     </section>
   </div>
