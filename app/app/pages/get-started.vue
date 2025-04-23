@@ -12,7 +12,7 @@
       <!-- Steps -->
       <div class="max-w-3xl mx-auto">
         <UCard
-          class="mb-8 transition-all duration-300 hover:shadow-lg hover:bg-gray-50/80 dark:hover:bg-gray-800/80 backdrop-blur"
+          class="mb-8 transition-all duration-300 hover:shadow-lg bg-white hover:bg-gray-50 dark:bg-gray-800 dark:hover:bg-gray-800/80 backdrop-blur"
         >
           <USteps>
             <UStep title="Basic Information">
@@ -107,7 +107,7 @@
           <h2 class="text-2xl font-bold mb-6">Need Help?</h2>
           <div class="grid md:grid-cols-2 gap-8">
             <UCard
-              class="transition-all duration-300 hover:shadow-lg hover:scale-[1.02] hover:bg-gray-50/80 dark:hover:bg-gray-800/80 backdrop-blur"
+              class="transition-all duration-300 hover:shadow-lg hover:scale-[1.02] bg-white hover:bg-gray-50 dark:bg-gray-800 dark:hover:bg-gray-800/80 backdrop-blur"
             >
               <template #header>
                 <div class="flex items-center gap-2">
@@ -135,7 +135,7 @@
             </UCard>
 
             <UCard
-              class="transition-all duration-300 hover:shadow-lg hover:scale-[1.02] hover:bg-gray-50/80 dark:hover:bg-gray-800/80 backdrop-blur"
+              class="transition-all duration-300 hover:shadow-lg hover:scale-[1.02] bg-white hover:bg-gray-50 dark:bg-gray-800 dark:hover:bg-gray-800/80 backdrop-blur"
             >
               <template #header>
                 <div class="flex items-center gap-2">

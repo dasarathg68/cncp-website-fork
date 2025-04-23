@@ -21,7 +21,7 @@
           </h2>
           <div class="grid md:grid-cols-3 gap-8">
             <UCard
-              class="shadow-sm dark:bg-gray-800 transition-all duration-300 hover:shadow-lg hover:scale-[1.02] hover:bg-gray-800/80 backdrop-blur"
+              class="shadow-sm bg-white dark:bg-gray-800 transition-all duration-300 hover:shadow-lg hover:scale-[1.02] hover:bg-gray-50 dark:hover:bg-gray-800/80 backdrop-blur"
             >
               <template #header>
                 <div class="flex items-center gap-2">
@@ -43,7 +43,7 @@
             </UCard>
 
             <UCard
-              class="shadow-sm dark:bg-gray-800 transition-all duration-300 hover:shadow-lg hover:scale-[1.02] hover:bg-gray-800/80 backdrop-blur"
+              class="shadow-sm bg-white dark:bg-gray-800 transition-all duration-300 hover:shadow-lg hover:scale-[1.02] hover:bg-gray-50 dark:hover:bg-gray-800/80 backdrop-blur"
             >
               <template #header>
                 <div class="flex items-center gap-2">
@@ -65,7 +65,7 @@
             </UCard>
 
             <UCard
-              class="shadow-sm dark:bg-gray-800 transition-all duration-300 hover:shadow-lg hover:scale-[1.02] hover:bg-gray-800/80 backdrop-blur"
+              class="shadow-sm bg-white dark:bg-gray-800 transition-all duration-300 hover:shadow-lg hover:scale-[1.02] hover:bg-gray-50 dark:hover:bg-gray-800/80 backdrop-blur"
             >
               <template #header>
                 <div class="flex items-center gap-2">
@@ -95,7 +95,7 @@
           </h2>
           <div class="grid md:grid-cols-3 gap-8">
             <UCard
-              class="shadow-sm dark:bg-gray-800 transition-all duration-300 hover:shadow-lg hover:scale-[1.02] hover:bg-gray-800/80 backdrop-blur"
+              class="shadow-sm bg-white dark:bg-gray-800 transition-all duration-300 hover:shadow-lg hover:scale-[1.02] hover:bg-gray-50 dark:hover:bg-gray-800/80 backdrop-blur"
             >
               <template #header>
                 <div class="flex items-center gap-2">
@@ -117,7 +117,7 @@
             </UCard>
 
             <UCard
-              class="shadow-sm dark:bg-gray-800 transition-all duration-300 hover:shadow-lg hover:scale-[1.02] hover:bg-gray-800/80 backdrop-blur"
+              class="shadow-sm bg-white dark:bg-gray-800 transition-all duration-300 hover:shadow-lg hover:scale-[1.02] hover:bg-gray-50 dark:hover:bg-gray-800/80 backdrop-blur"
             >
               <template #header>
                 <div class="flex items-center gap-2">
@@ -139,7 +139,7 @@
             </UCard>
 
             <UCard
-              class="shadow-sm dark:bg-gray-800 transition-all duration-300 hover:shadow-lg hover:scale-[1.02] hover:bg-gray-800/80 backdrop-blur"
+              class="shadow-sm bg-white dark:bg-gray-800 transition-all duration-300 hover:shadow-lg hover:scale-[1.02] hover:bg-gray-50 dark:hover:bg-gray-800/80 backdrop-blur"
             >
               <template #header>
                 <div class="flex items-center gap-2">
@@ -169,7 +169,7 @@
           </h2>
           <div class="grid md:grid-cols-2 gap-8">
             <UCard
-              class="shadow-sm dark:bg-gray-800 transition-all duration-300 hover:shadow-lg hover:scale-[1.02] hover:bg-gray-800/80 backdrop-blur"
+              class="shadow-sm bg-white dark:bg-gray-800 transition-all duration-300 hover:shadow-lg hover:scale-[1.02] hover:bg-gray-50 dark:hover:bg-gray-800/80 backdrop-blur"
             >
               <template #header>
                 <div class="flex items-center gap-2">

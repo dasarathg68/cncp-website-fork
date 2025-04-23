@@ -26,7 +26,7 @@
             <div class="flex flex-col md:flex-row justify-between items-center">
               <div class="w-full md:w-5/12 pl-16 md:pl-0">
                 <UCard
-                  class="shadow-sm dark:bg-gray-800 transition-all duration-300 hover:shadow-lg hover:scale-[1.02] hover:bg-gray-800/80 backdrop-blur"
+                  class="shadow-sm bg-white dark:bg-gray-800 transition-all duration-300 hover:shadow-lg hover:scale-[1.02] hover:bg-gray-50 dark:hover:bg-gray-800/80 backdrop-blur"
                 >
                   <template #header>
                     <h3
@@ -40,7 +40,7 @@
                     for a distributed organization.
                   </p>
                   <div
-                    class="bg-emerald-50 dark:bg-emerald-900/50 p-4 rounded-lg transition-colors duration-300 hover:bg-emerald-100 dark:hover:bg-emerald-900/70"
+                    class="bg-emerald-50 dark:bg-emerald-900/50 p-4 rounded-lg transition-colors duration-300 hover:bg-emerald-100/70 dark:hover:bg-emerald-900/70"
                   >
                     <ul class="space-y-2 text-black dark:text-white">
                       <li class="flex items-center">
@@ -76,7 +76,7 @@
               />
               <div class="w-full md:w-5/12 pl-16 md:pl-0">
                 <UCard
-                  class="shadow-sm dark:bg-gray-800 transition-all duration-300 hover:shadow-lg hover:scale-[1.02] hover:bg-gray-800/80 backdrop-blur"
+                  class="shadow-sm bg-white dark:bg-gray-800 transition-all duration-300 hover:shadow-lg hover:scale-[1.02] hover:bg-gray-50 dark:hover:bg-gray-800/80 backdrop-blur"
                 >
                   <template #header>
                     <h3
@@ -90,7 +90,7 @@
                     knowledge workers who believe in the vision.
                   </p>
                   <div
-                    class="bg-emerald-50 dark:bg-emerald-900/50 p-4 rounded-lg transition-colors duration-300 hover:bg-emerald-100 dark:hover:bg-emerald-900/70"
+                    class="bg-emerald-50 dark:bg-emerald-900/50 p-4 rounded-lg transition-colors duration-300 hover:bg-emerald-100/70 dark:hover:bg-emerald-900/70"
                   >
                     <ul class="space-y-2 text-black dark:text-white">
                       <li class="flex items-center">
@@ -117,7 +117,9 @@
           <div class="relative mb-16">
             <div class="flex flex-col md:flex-row justify-between items-center">
               <div class="w-full md:w-5/12 pl-16 md:pl-0">
-                <UCard class="shadow-sm dark:bg-gray-800">
+                <UCard
+                  class="shadow-sm bg-white dark:bg-gray-800 transition-all duration-300 hover:shadow-lg hover:scale-[1.02] hover:bg-gray-50 dark:hover:bg-gray-800/80 backdrop-blur"
+                >
                   <template #header>
                     <h3
                       class="text-xl font-semibold text-black dark:text-emerald-400"
@@ -165,7 +167,9 @@
                 class="absolute left-8 md:left-1/2 -translate-x-1/2 w-4 h-4 rounded-full bg-emerald-600 dark:bg-emerald-500 border-4 border-emerald-100 dark:border-emerald-900"
               />
               <div class="w-full md:w-5/12 pl-16 md:pl-0">
-                <UCard class="shadow-sm dark:bg-gray-800">
+                <UCard
+                  class="shadow-sm bg-white dark:bg-gray-800 transition-all duration-300 hover:shadow-lg hover:scale-[1.02] hover:bg-gray-50 dark:hover:bg-gray-800/80 backdrop-blur"
+                >
                   <template #header>
                     <h3
                       class="text-xl font-semibold text-black dark:text-emerald-400"
@@ -205,7 +209,9 @@
           <div class="relative">
             <div class="flex flex-col md:flex-row justify-between items-center">
               <div class="w-full md:w-5/12 pl-16 md:pl-0">
-                <UCard class="shadow-sm dark:bg-gray-800">
+                <UCard
+                  class="shadow-sm bg-white dark:bg-gray-800 transition-all duration-300 hover:shadow-lg hover:scale-[1.02] hover:bg-gray-50 dark:hover:bg-gray-800/80 backdrop-blur"
+                >
                   <template #header>
                     <h3
                       class="text-xl font-semibold text-black dark:text-emerald-400"
