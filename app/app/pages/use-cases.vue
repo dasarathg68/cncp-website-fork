@@ -43,11 +43,14 @@
                 ownership but for now he decides to retain exclusive ownership.
               </p>
             </UCard>
-            <UCard
-              class="shadow-sm dark:bg-gray-800 flex items-center justify-center min-h-[300px]"
-            >
-              <p class="text-xl text-black dark:text-white">Image</p>
-            </UCard>
+            <div class="p-6 min-h-[300px]">
+              <NuxtImg
+                src="/AIServiceProvider.png"
+                alt="AI Service Provider Use Case"
+                class="w-full h-[300px] object-cover rounded-lg"
+                loading="lazy"
+              />
+            </div>
           </div>
         </div>
 
@@ -78,11 +81,14 @@
                 after expenses including his pay as the manager.
               </p>
             </UCard>
-            <UCard
-              class="shadow-sm dark:bg-gray-800 flex items-center justify-center min-h-[300px]"
-            >
-              <p class="text-xl text-black dark:text-white">Image</p>
-            </UCard>
+            <div class="p-6 min-h-[300px]">
+              <NuxtImg
+                src="/ArtistCollective.png"
+                alt="Digital Art Collective Use Case"
+                class="w-full h-[300px] object-cover rounded-lg"
+                loading="lazy"
+              />
+            </div>
           </div>
         </div>
 
@@ -114,11 +120,14 @@
                 revenue is generated, profits are paid proportionally.
               </p>
             </UCard>
-            <UCard
-              class="shadow-sm dark:bg-gray-800 flex items-center justify-center min-h-[300px]"
-            >
-              <p class="text-xl text-black dark:text-white">Image</p>
-            </UCard>
+            <div class="p-6 min-h-[300px]">
+              <NuxtImg
+                src="/OSContributor.png"
+                alt="Open Source Development Use Case"
+                class="w-full h-[300px] object-cover rounded-lg"
+                loading="lazy"
+              />
+            </div>
           </div>
         </div>
 
