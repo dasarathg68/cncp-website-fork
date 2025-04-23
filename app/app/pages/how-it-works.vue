@@ -23,15 +23,15 @@
           <div class="relative mb-16">
             <div class="flex flex-col md:flex-row justify-between items-center">
               <div class="w-full md:w-5/12 pl-16 md:pl-0">
-                <div
-                  class="bg-white rounded-lg shadow-sm p-6 border border-gray-100"
-                >
-                  <h3 class="text-xl font-semibold text-emerald-700 mb-3">
-                    Initial Concept
-                  </h3>
+                <UCard class="shadow-sm">
+                  <template #header>
+                    <h3 class="text-xl font-semibold text-emerald-700">
+                      Initial Concept
+                    </h3>
+                  </template>
                   <p class="text-gray-600 mb-4">
                     A founding team or individual develops an innovative idea
-                    for a decentralized organization.
+                    for a distributed organization.
                   </p>
                   <div class="bg-emerald-50 p-4 rounded-lg">
                     <ul class="space-y-2 text-gray-700">
@@ -51,7 +51,7 @@
                       </li>
                     </ul>
                   </div>
-                </div>
+                </UCard>
               </div>
               <div
                 class="absolute left-8 md:left-1/2 -translate-x-1/2 w-4 h-4 rounded-full bg-emerald-600 border-4 border-emerald-100"
@@ -67,12 +67,12 @@
                 class="absolute left-8 md:left-1/2 -translate-x-1/2 w-4 h-4 rounded-full bg-emerald-600 border-4 border-emerald-100"
               />
               <div class="w-full md:w-5/12 pl-16 md:pl-0">
-                <div
-                  class="bg-white rounded-lg shadow-sm p-6 border border-gray-100"
-                >
-                  <h3 class="text-xl font-semibold text-emerald-700 mb-3">
-                    Community Building
-                  </h3>
+                <UCard class="shadow-sm">
+                  <template #header>
+                    <h3 class="text-xl font-semibold text-emerald-700">
+                      Community Building
+                    </h3>
+                  </template>
                   <p class="text-gray-600 mb-4">
                     Gather micro investments from a distributed pool of
                     knowledge workers who believe in the vision.
@@ -95,7 +95,7 @@
                       </li>
                     </ul>
                   </div>
-                </div>
+                </UCard>
               </div>
             </div>
           </div>
@@ -103,12 +103,12 @@
           <div class="relative mb-16">
             <div class="flex flex-col md:flex-row justify-between items-center">
               <div class="w-full md:w-5/12 pl-16 md:pl-0">
-                <div
-                  class="bg-white rounded-lg shadow-sm p-6 border border-gray-100"
-                >
-                  <h3 class="text-xl font-semibold text-emerald-700 mb-3">
-                    Organizational Structure
-                  </h3>
+                <UCard class="shadow-sm">
+                  <template #header>
+                    <h3 class="text-xl font-semibold text-emerald-700">
+                      Organizational Structure
+                    </h3>
+                  </template>
                   <p class="text-gray-600 mb-4">
                     Establish a distributed corporate structure with clear
                     governance and operational frameworks.
@@ -131,7 +131,7 @@
                       </li>
                     </ul>
                   </div>
-                </div>
+                </UCard>
               </div>
               <div
                 class="absolute left-8 md:left-1/2 -translate-x-1/2 w-4 h-4 rounded-full bg-emerald-600 border-4 border-emerald-100"
@@ -147,12 +147,12 @@
                 class="absolute left-8 md:left-1/2 -translate-x-1/2 w-4 h-4 rounded-full bg-emerald-600 border-4 border-emerald-100"
               />
               <div class="w-full md:w-5/12 pl-16 md:pl-0">
-                <div
-                  class="bg-white rounded-lg shadow-sm p-6 border border-gray-100"
-                >
-                  <h3 class="text-xl font-semibold text-emerald-700 mb-3">
-                    Growth & Scale
-                  </h3>
+                <UCard class="shadow-sm">
+                  <template #header>
+                    <h3 class="text-xl font-semibold text-emerald-700">
+                      Growth & Scale
+                    </h3>
+                  </template>
                   <p class="text-gray-600 mb-4">
                     Scale operations through pooled labor and community synergy
                     while maintaining decentralized management.
@@ -175,7 +175,7 @@
                       </li>
                     </ul>
                   </div>
-                </div>
+                </UCard>
               </div>
             </div>
           </div>
@@ -183,12 +183,12 @@
           <div class="relative">
             <div class="flex flex-col md:flex-row justify-between items-center">
               <div class="w-full md:w-5/12 pl-16 md:pl-0">
-                <div
-                  class="bg-white rounded-lg shadow-sm p-6 border border-gray-100"
-                >
-                  <h3 class="text-xl font-semibold text-emerald-700 mb-3">
-                    Value Distribution
-                  </h3>
+                <UCard class="shadow-sm">
+                  <template #header>
+                    <h3 class="text-xl font-semibold text-emerald-700">
+                      Value Distribution
+                    </h3>
+                  </template>
                   <p class="text-gray-600 mb-4">
                     Profits and value are distributed back to the community of
                     investors and workers.
@@ -211,7 +211,7 @@
                       </li>
                     </ul>
                   </div>
-                </div>
+                </UCard>
               </div>
               <div
                 class="absolute left-8 md:left-1/2 -translate-x-1/2 w-4 h-4 rounded-full bg-emerald-600 border-4 border-emerald-100"
