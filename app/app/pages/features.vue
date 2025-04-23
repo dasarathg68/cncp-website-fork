@@ -20,12 +20,14 @@
             Smart Contract Management
           </h2>
           <div class="grid md:grid-cols-3 gap-8">
-            <UCard class="shadow-sm dark:bg-gray-800">
+            <UCard
+              class="shadow-sm dark:bg-gray-800 transition-all duration-300 hover:shadow-lg hover:scale-[1.02] hover:bg-gray-800/80 backdrop-blur"
+            >
               <template #header>
                 <div class="flex items-center gap-2">
                   <UIcon
                     name="i-heroicons-document-text"
-                    class="text-emerald-600 dark:text-emerald-400"
+                    class="text-emerald-600 dark:text-emerald-400 transition-transform duration-300 group-hover:scale-110"
                   />
                   <h3
                     class="text-lg font-semibold text-black dark:text-emerald-400"
@@ -40,12 +42,14 @@
               </p>
             </UCard>
 
-            <UCard class="shadow-sm dark:bg-gray-800">
+            <UCard
+              class="shadow-sm dark:bg-gray-800 transition-all duration-300 hover:shadow-lg hover:scale-[1.02] hover:bg-gray-800/80 backdrop-blur"
+            >
               <template #header>
                 <div class="flex items-center gap-2">
                   <UIcon
                     name="i-heroicons-currency-dollar"
-                    class="text-emerald-600 dark:text-emerald-400"
+                    class="text-emerald-600 dark:text-emerald-400 transition-transform duration-300 group-hover:scale-110"
                   />
                   <h3
                     class="text-lg font-semibold text-black dark:text-emerald-400"
@@ -60,12 +64,14 @@
               </p>
             </UCard>
 
-            <UCard class="shadow-sm dark:bg-gray-800">
+            <UCard
+              class="shadow-sm dark:bg-gray-800 transition-all duration-300 hover:shadow-lg hover:scale-[1.02] hover:bg-gray-800/80 backdrop-blur"
+            >
               <template #header>
                 <div class="flex items-center gap-2">
                   <UIcon
                     name="i-heroicons-chart-bar"
-                    class="text-emerald-600 dark:text-emerald-400"
+                    class="text-emerald-600 dark:text-emerald-400 transition-transform duration-300 group-hover:scale-110"
                   />
                   <h3
                     class="text-lg font-semibold text-black dark:text-emerald-400"
@@ -88,12 +94,14 @@
             Governance Tools
           </h2>
           <div class="grid md:grid-cols-3 gap-8">
-            <UCard class="shadow-sm dark:bg-gray-800">
+            <UCard
+              class="shadow-sm dark:bg-gray-800 transition-all duration-300 hover:shadow-lg hover:scale-[1.02] hover:bg-gray-800/80 backdrop-blur"
+            >
               <template #header>
                 <div class="flex items-center gap-2">
                   <UIcon
                     name="i-heroicons-user-group"
-                    class="text-emerald-600 dark:text-emerald-400"
+                    class="text-emerald-600 dark:text-emerald-400 transition-transform duration-300 group-hover:scale-110"
                   />
                   <h3
                     class="text-lg font-semibold text-black dark:text-emerald-400"
@@ -108,12 +116,14 @@
               </p>
             </UCard>
 
-            <UCard class="shadow-sm dark:bg-gray-800">
+            <UCard
+              class="shadow-sm dark:bg-gray-800 transition-all duration-300 hover:shadow-lg hover:scale-[1.02] hover:bg-gray-800/80 backdrop-blur"
+            >
               <template #header>
                 <div class="flex items-center gap-2">
                   <UIcon
                     name="i-heroicons-check-badge"
-                    class="text-emerald-600 dark:text-emerald-400"
+                    class="text-emerald-600 dark:text-emerald-400 transition-transform duration-300 group-hover:scale-110"
                   />
                   <h3
                     class="text-lg font-semibold text-black dark:text-emerald-400"
@@ -128,12 +138,14 @@
               </p>
             </UCard>
 
-            <UCard class="shadow-sm dark:bg-gray-800">
+            <UCard
+              class="shadow-sm dark:bg-gray-800 transition-all duration-300 hover:shadow-lg hover:scale-[1.02] hover:bg-gray-800/80 backdrop-blur"
+            >
               <template #header>
                 <div class="flex items-center gap-2">
                   <UIcon
                     name="i-heroicons-document-chart-bar"
-                    class="text-emerald-600 dark:text-emerald-400"
+                    class="text-emerald-600 dark:text-emerald-400 transition-transform duration-300 group-hover:scale-110"
                   />
                   <h3
                     class="text-lg font-semibold text-black dark:text-emerald-400"
@@ -156,12 +168,14 @@
             3rd Party Integrations
           </h2>
           <div class="grid md:grid-cols-2 gap-8">
-            <UCard class="shadow-sm dark:bg-gray-800">
+            <UCard
+              class="shadow-sm dark:bg-gray-800 transition-all duration-300 hover:shadow-lg hover:scale-[1.02] hover:bg-gray-800/80 backdrop-blur"
+            >
               <template #header>
                 <div class="flex items-center gap-2">
                   <UIcon
                     name="i-heroicons-puzzle-piece"
-                    class="text-emerald-600 dark:text-emerald-400"
+                    class="text-emerald-600 dark:text-emerald-400 transition-transform duration-300 group-hover:scale-110"
                   />
                   <h3
                     class="text-lg font-semibold text-black dark:text-emerald-400"
@@ -190,7 +204,11 @@
 
         <!-- CTA -->
         <div class="text-center">
-          <UButton size="lg" to="/get-started">
+          <UButton
+            size="lg"
+            to="https://app.cncportal.io"
+            class="transition-transform duration-300 hover:scale-105"
+          >
             Start Building Your CNC
           </UButton>
         </div>

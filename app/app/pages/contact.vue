@@ -22,12 +22,14 @@
               Other Ways to Connect
             </h2>
             <div class="space-y-6">
-              <UCard class="shadow-sm dark:bg-gray-800">
+              <UCard
+                class="shadow-sm dark:bg-gray-800 transition-all duration-300 hover:shadow-lg hover:scale-[1.02] hover:bg-gray-800/80 backdrop-blur"
+              >
                 <template #header>
                   <div class="flex items-center gap-2">
                     <UIcon
                       name="i-heroicons-chat-bubble-left-right"
-                      class="text-emerald-600 dark:text-emerald-400"
+                      class="text-emerald-600 dark:text-emerald-400 transition-transform duration-300 group-hover:scale-110"
                     />
                     <h3
                       class="text-lg font-semibold text-black dark:text-emerald-400"
@@ -41,17 +43,23 @@
                   support.
                 </p>
                 <div class="mt-4">
-                  <UButton variant="ghost" to="https://discord.gg/zNgaZSu4x5">
+                  <UButton
+                    variant="ghost"
+                    to="https://discord.gg/zNgaZSu4x5"
+                    class="transition-transform duration-300 hover:scale-105"
+                  >
                     Join Discord
                   </UButton>
                 </div>
               </UCard>
-              <UCard class="shadow-sm dark:bg-gray-800">
+              <UCard
+                class="shadow-sm dark:bg-gray-800 transition-all duration-300 hover:shadow-lg hover:scale-[1.02] hover:bg-gray-800/80 backdrop-blur"
+              >
                 <template #header>
                   <div class="flex items-center gap-2">
                     <UIcon
                       name="i-heroicons-document-text"
-                      class="text-emerald-600 dark:text-emerald-400"
+                      class="text-emerald-600 dark:text-emerald-400 transition-transform duration-300 group-hover:scale-110"
                     />
                     <h3
                       class="text-lg font-semibold text-black dark:text-emerald-400"
@@ -64,12 +72,14 @@
                   We publish our code under a GPL2.0 license.
                 </p>
               </UCard>
-              <UCard class="shadow-sm dark:bg-gray-800">
+              <UCard
+                class="shadow-sm dark:bg-gray-800 transition-all duration-300 hover:shadow-lg hover:scale-[1.02] hover:bg-gray-800/80 backdrop-blur"
+              >
                 <template #header>
                   <div class="flex items-center gap-2">
                     <UIcon
                       name="i-heroicons-document-text"
-                      class="text-emerald-600 dark:text-emerald-400"
+                      class="text-emerald-600 dark:text-emerald-400 transition-transform duration-300 group-hover:scale-110"
                     />
                     <h3
                       class="text-lg font-semibold text-black dark:text-emerald-400"
@@ -83,7 +93,12 @@
                   information.
                 </p>
                 <div class="mt-4">
-                  <UButton variant="ghost"> Coming Soon </UButton>
+                  <UButton
+                    variant="ghost"
+                    class="transition-transform duration-300 hover:scale-105"
+                  >
+                    Coming Soon
+                  </UButton>
                 </div>
               </UCard>
             </div>

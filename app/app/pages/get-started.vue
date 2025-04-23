@@ -11,7 +11,9 @@
 
       <!-- Steps -->
       <div class="max-w-3xl mx-auto">
-        <UCard class="mb-8">
+        <UCard
+          class="mb-8 transition-all duration-300 hover:shadow-lg hover:bg-gray-50/80 dark:hover:bg-gray-800/80 backdrop-blur"
+        >
           <USteps>
             <UStep title="Basic Information">
               <template #description>
@@ -84,8 +86,19 @@
           </USteps>
 
           <div class="mt-8 flex justify-end gap-4">
-            <UButton color="gray" variant="ghost"> Save Draft </UButton>
-            <UButton color="primary"> Continue </UButton>
+            <UButton
+              color="gray"
+              variant="ghost"
+              class="transition-transform duration-300 hover:scale-105"
+            >
+              Save Draft
+            </UButton>
+            <UButton
+              color="primary"
+              class="transition-transform duration-300 hover:scale-105"
+            >
+              Continue
+            </UButton>
           </div>
         </UCard>
 
@@ -93,12 +106,14 @@
         <div class="mt-16">
           <h2 class="text-2xl font-bold mb-6">Need Help?</h2>
           <div class="grid md:grid-cols-2 gap-8">
-            <UCard>
+            <UCard
+              class="transition-all duration-300 hover:shadow-lg hover:scale-[1.02] hover:bg-gray-50/80 dark:hover:bg-gray-800/80 backdrop-blur"
+            >
               <template #header>
                 <div class="flex items-center gap-2">
                   <UIcon
                     name="i-heroicons-book-open"
-                    class="text-primary-500"
+                    class="text-primary-500 transition-transform duration-300 group-hover:scale-110"
                   />
                   <h3 class="text-lg font-semibold">Documentation</h3>
                 </div>
@@ -112,19 +127,21 @@
                   color="primary"
                   variant="ghost"
                   to="/docs"
-                  class="w-full"
+                  class="w-full transition-transform duration-300 hover:scale-105"
                 >
                   View Documentation
                 </UButton>
               </template>
             </UCard>
 
-            <UCard>
+            <UCard
+              class="transition-all duration-300 hover:shadow-lg hover:scale-[1.02] hover:bg-gray-50/80 dark:hover:bg-gray-800/80 backdrop-blur"
+            >
               <template #header>
                 <div class="flex items-center gap-2">
                   <UIcon
                     name="i-heroicons-chat-bubble-left-right"
-                    class="text-primary-500"
+                    class="text-primary-500 transition-transform duration-300 group-hover:scale-110"
                   />
                   <h3 class="text-lg font-semibold">Contact Support</h3>
                 </div>
@@ -138,7 +155,7 @@
                   color="primary"
                   variant="ghost"
                   to="/support"
-                  class="w-full"
+                  class="w-full transition-transform duration-300 hover:scale-105"
                 >
                   Contact Support
                 </UButton>

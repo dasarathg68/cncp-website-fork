@@ -25,7 +25,9 @@
           <div class="relative mb-16">
             <div class="flex flex-col md:flex-row justify-between items-center">
               <div class="w-full md:w-5/12 pl-16 md:pl-0">
-                <UCard class="shadow-sm dark:bg-gray-800">
+                <UCard
+                  class="shadow-sm dark:bg-gray-800 transition-all duration-300 hover:shadow-lg hover:scale-[1.02] hover:bg-gray-800/80 backdrop-blur"
+                >
                   <template #header>
                     <h3
                       class="text-xl font-semibold text-black dark:text-emerald-400"
@@ -38,13 +40,13 @@
                     for a distributed organization.
                   </p>
                   <div
-                    class="bg-emerald-50 dark:bg-emerald-900/50 p-4 rounded-lg"
+                    class="bg-emerald-50 dark:bg-emerald-900/50 p-4 rounded-lg transition-colors duration-300 hover:bg-emerald-100 dark:hover:bg-emerald-900/70"
                   >
                     <ul class="space-y-2 text-black dark:text-white">
                       <li class="flex items-center">
                         <UIcon
                           name="i-heroicons-light-bulb"
-                          class="w-5 h-5 text-emerald-600 dark:text-emerald-400 mr-2"
+                          class="w-5 h-5 text-emerald-600 dark:text-emerald-400 mr-2 transition-transform duration-300 group-hover:scale-110"
                         />
                         <span>Vision development</span>
                       </li>
@@ -73,7 +75,9 @@
                 class="absolute left-8 md:left-1/2 -translate-x-1/2 w-4 h-4 rounded-full bg-emerald-600 dark:bg-emerald-500 border-4 border-emerald-100 dark:border-emerald-900"
               />
               <div class="w-full md:w-5/12 pl-16 md:pl-0">
-                <UCard class="shadow-sm dark:bg-gray-800">
+                <UCard
+                  class="shadow-sm dark:bg-gray-800 transition-all duration-300 hover:shadow-lg hover:scale-[1.02] hover:bg-gray-800/80 backdrop-blur"
+                >
                   <template #header>
                     <h3
                       class="text-xl font-semibold text-black dark:text-emerald-400"
@@ -86,13 +90,13 @@
                     knowledge workers who believe in the vision.
                   </p>
                   <div
-                    class="bg-emerald-50 dark:bg-emerald-900/50 p-4 rounded-lg"
+                    class="bg-emerald-50 dark:bg-emerald-900/50 p-4 rounded-lg transition-colors duration-300 hover:bg-emerald-100 dark:hover:bg-emerald-900/70"
                   >
                     <ul class="space-y-2 text-black dark:text-white">
                       <li class="flex items-center">
                         <UIcon
                           name="i-heroicons-user-group"
-                          class="w-5 h-5 text-emerald-600 dark:text-emerald-400 mr-2"
+                          class="w-5 h-5 text-emerald-600 dark:text-emerald-400 mr-2 transition-transform duration-300 group-hover:scale-110"
                         />
                         <span>Community engagement</span>
                       </li>
@@ -247,7 +251,7 @@
           <UButton
             size="lg"
             to="https://app.cncportal.io"
-            class="bg-emerald-600 hover:bg-emerald-700 dark:bg-emerald-500 dark:hover:bg-emerald-600 px-8 py-3 rounded-md text-lg font-medium"
+            class="transition-transform duration-300 hover:scale-105"
           >
             Start Your CNC Journey
           </UButton>

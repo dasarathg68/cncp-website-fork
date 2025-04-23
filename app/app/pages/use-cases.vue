@@ -150,7 +150,7 @@
           <UButton
             size="lg"
             to="https://app.cncportal.io"
-            class="text-lg px-8 py-4 shadow-lg hover:shadow-xl transition-all duration-300"
+            class="transition-transform duration-300 hover:scale-105"
           >
             Start Your CNC Journey
           </UButton>

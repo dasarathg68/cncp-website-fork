@@ -13,10 +13,19 @@
             using blockchain technology.
           </p>
           <div class="flex justify-center gap-4">
-            <UButton size="lg" to="https://app.cncportal.io">
+            <UButton
+              size="lg"
+              to="https://app.cncportal.io"
+              class="transition-transform duration-300 hover:scale-105"
+            >
               Get Started
             </UButton>
-            <UButton variant="ghost" size="lg" to="/how-it-works">
+            <UButton
+              variant="ghost"
+              size="lg"
+              to="/how-it-works"
+              class="transition-transform duration-300 hover:scale-105"
+            >
               Learn More
             </UButton>
           </div>
@@ -33,7 +42,9 @@
           >
             What is a CNC?
           </h2>
-          <UCard class="shadow-sm dark:bg-gray-800 mb-8">
+          <UCard
+            class="shadow-sm dark:bg-gray-800 transition-all duration-300 hover:shadow-lg hover:scale-[1.02] hover:bg-gray-800/80 backdrop-blur mb-8"
+          >
             <template #header>
               <h3
                 class="text-xl font-semibold text-black dark:text-emerald-400"
@@ -57,7 +68,9 @@
     <section class="py-16">
       <div class="container mx-auto px-4">
         <div class="max-w-3xl mx-auto">
-          <UCard class="shadow-sm dark:bg-gray-800 mb-8">
+          <UCard
+            class="shadow-sm dark:bg-gray-800 transition-all duration-300 hover:shadow-lg hover:scale-[1.02] hover:bg-gray-800/80 backdrop-blur mb-8"
+          >
             <template #header>
               <h3
                 class="text-xl font-semibold text-black dark:text-emerald-400"
@@ -86,7 +99,9 @@
           CNC vs DAO: Key Differences
         </h2>
         <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-          <UCard class="shadow-sm dark:bg-gray-800">
+          <UCard
+            class="shadow-sm dark:bg-gray-800 transition-all duration-300 hover:shadow-lg hover:scale-[1.02] hover:bg-gray-800/80 backdrop-blur"
+          >
             <template #header>
               <h3
                 class="text-xl font-semibold text-black dark:text-emerald-400"
@@ -106,7 +121,9 @@
               <li>• Funds raised through token sales and ICOs.</li>
             </ul>
           </UCard>
-          <UCard class="shadow-sm dark:bg-gray-800">
+          <UCard
+            class="shadow-sm dark:bg-gray-800 transition-all duration-300 hover:shadow-lg hover:scale-[1.02] hover:bg-gray-800/80 backdrop-blur"
+          >
             <template #header>
               <h3
                 class="text-xl font-semibold text-black dark:text-emerald-400"
@@ -145,12 +162,14 @@
           Why Choose CNC?
         </h2>
         <div class="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-          <UCard class="shadow-sm dark:bg-gray-800">
+          <UCard
+            class="shadow-sm dark:bg-gray-800 transition-all duration-300 hover:shadow-lg hover:scale-[1.02] hover:bg-gray-800/80 backdrop-blur"
+          >
             <template #header>
               <div class="flex items-center gap-2">
                 <UIcon
                   name="i-heroicons-scale"
-                  class="text-emerald-600 dark:text-emerald-400"
+                  class="text-emerald-600 dark:text-emerald-400 transition-transform duration-300 group-hover:scale-110"
                 />
                 <h3
                   class="text-lg font-semibold text-black dark:text-emerald-400"
@@ -164,12 +183,14 @@
               knowledge workers, maintaining control and ownership.
             </p>
           </UCard>
-          <UCard class="shadow-sm dark:bg-gray-800">
+          <UCard
+            class="shadow-sm dark:bg-gray-800 transition-all duration-300 hover:shadow-lg hover:scale-[1.02] hover:bg-gray-800/80 backdrop-blur"
+          >
             <template #header>
               <div class="flex items-center gap-2">
                 <UIcon
                   name="i-heroicons-globe-alt"
-                  class="text-emerald-600 dark:text-emerald-400"
+                  class="text-emerald-600 dark:text-emerald-400 transition-transform duration-300 group-hover:scale-110"
                 />
                 <h3
                   class="text-lg font-semibold text-black dark:text-emerald-400"
@@ -183,12 +204,14 @@
               equal investors, regardless of local currency.
             </p>
           </UCard>
-          <UCard class="shadow-sm dark:bg-gray-800">
+          <UCard
+            class="shadow-sm dark:bg-gray-800 transition-all duration-300 hover:shadow-lg hover:scale-[1.02] hover:bg-gray-800/80 backdrop-blur"
+          >
             <template #header>
               <div class="flex items-center gap-2">
                 <UIcon
                   name="i-heroicons-shield-check"
-                  class="text-emerald-600 dark:text-emerald-400"
+                  class="text-emerald-600 dark:text-emerald-400 transition-transform duration-300 group-hover:scale-110"
                 />
                 <h3
                   class="text-lg font-semibold text-black dark:text-emerald-400"
@@ -216,7 +239,11 @@
           Join the future of corporate organization and start building your
           distributed team today.
         </p>
-        <UButton size="lg" to="https://app.cncportal.io">
+        <UButton
+          size="lg"
+          to="https://app.cncportal.io"
+          class="transition-transform duration-300 hover:scale-105"
+        >
           Start Building
         </UButton>
       </div>
