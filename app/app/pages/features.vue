@@ -1,9 +1,11 @@
 <template>
-  <div class="py-16">
+  <div class="py-16 dark:bg-gray-900">
     <div class="container mx-auto px-4">
       <!-- Page Header -->
       <div class="max-w-3xl mx-auto text-center mb-16">
-        <h1 class="text-4xl font-bold mb-6">CNC Portal Features</h1>
+        <h1 class="text-4xl font-bold mb-6 dark:text-white">
+          CNC Portal Features
+        </h1>
         <p class="text-xl text-gray-600 dark:text-gray-200">
           Everything you need to create and manage your Crypto Native
           Corporation
@@ -14,9 +16,13 @@
       <div class="max-w-6xl mx-auto">
         <!-- Smart Contract Management -->
         <div class="mb-16">
-          <h2 class="text-2xl font-bold mb-8">Smart Contract Management</h2>
+          <h2
+            class="text-2xl font-bold mb-8 text-emerald-700 dark:text-emerald-400"
+          >
+            Smart Contract Management
+          </h2>
           <div class="grid md:grid-cols-3 gap-8">
-            <UCard class="p-6">
+            <UCard class="shadow-sm dark:bg-gray-800">
               <template #header>
                 <div class="flex items-center gap-2">
                   <UIcon
@@ -36,7 +42,7 @@
               </p>
             </UCard>
 
-            <UCard class="p-6">
+            <UCard class="shadow-sm dark:bg-gray-800">
               <template #header>
                 <div class="flex items-center gap-2">
                   <UIcon
@@ -56,7 +62,7 @@
               </p>
             </UCard>
 
-            <UCard class="p-6">
+            <UCard class="shadow-sm dark:bg-gray-800">
               <template #header>
                 <div class="flex items-center gap-2">
                   <UIcon
@@ -80,9 +86,13 @@
 
         <!-- Governance Tools -->
         <div class="mb-16">
-          <h2 class="text-2xl font-bold mb-8">Governance Tools</h2>
+          <h2
+            class="text-2xl font-bold mb-8 text-emerald-700 dark:text-emerald-400"
+          >
+            Governance Tools
+          </h2>
           <div class="grid md:grid-cols-3 gap-8">
-            <UCard class="p-6">
+            <UCard class="shadow-sm dark:bg-gray-800">
               <template #header>
                 <div class="flex items-center gap-2">
                   <UIcon
@@ -102,7 +112,7 @@
               </p>
             </UCard>
 
-            <UCard class="p-6">
+            <UCard class="shadow-sm dark:bg-gray-800">
               <template #header>
                 <div class="flex items-center gap-2">
                   <UIcon
@@ -122,7 +132,7 @@
               </p>
             </UCard>
 
-            <UCard class="p-6">
+            <UCard class="shadow-sm dark:bg-gray-800">
               <template #header>
                 <div class="flex items-center gap-2">
                   <UIcon
@@ -146,9 +156,13 @@
 
         <!-- Integration & Security -->
         <div class="mb-16">
-          <h2 class="text-2xl font-bold mb-8">3rd Party Integrations</h2>
+          <h2
+            class="text-2xl font-bold mb-8 text-emerald-700 dark:text-emerald-400"
+          >
+            3rd Party Integrations
+          </h2>
           <div class="grid md:grid-cols-2 gap-8">
-            <UCard class="p-6">
+            <UCard class="shadow-sm dark:bg-gray-800">
               <template #header>
                 <div class="flex items-center gap-2">
                   <UIcon
@@ -166,13 +180,17 @@
                 Connect with popular development tools, payment systems, and
                 blockchain networks. Seamlessly integrate with:
               </p>
-              <ul
-                class="list-disc pl-4 mt-4 space-y-2 text-gray-600 dark:text-gray-300"
+              <div
+                class="bg-emerald-50 dark:bg-emerald-900/50 p-4 rounded-lg mt-4"
               >
-                <li>GitHub for code contribution tracking</li>
-                <li>Popular crypto wallets</li>
-                <li>Project management tools</li>
-              </ul>
+                <ul
+                  class="list-disc pl-4 mt-4 space-y-2 text-gray-600 dark:text-gray-300"
+                >
+                  <li>GitHub for code contribution tracking</li>
+                  <li>Popular crypto wallets</li>
+                  <li>Project management tools</li>
+                </ul>
+              </div>
               <UButton variant="ghost" class="mt-4">Coming Soon</UButton>
             </UCard>
           </div>

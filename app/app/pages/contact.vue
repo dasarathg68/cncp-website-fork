@@ -1,9 +1,9 @@
 <template>
-  <div class="py-16">
+  <div class="py-16 dark:bg-gray-900">
     <div class="container mx-auto px-4">
       <!-- Page Header -->
       <div class="max-w-3xl mx-auto text-center mb-16">
-        <h1 class="text-4xl font-bold mb-6">Contact Us</h1>
+        <h1 class="text-4xl font-bold mb-6 dark:text-white">Contact Us</h1>
         <p class="text-xl text-gray-600 dark:text-gray-200">
           Have questions about CNC Portal? We're here to help.
         </p>
@@ -14,9 +14,13 @@
         <div class="grid md:grid-cols-2 gap-12">
           <!-- Contact Information -->
           <div>
-            <h2 class="text-2xl font-bold mb-8">Other Ways to Connect</h2>
+            <h2
+              class="text-2xl font-bold mb-8 text-emerald-700 dark:text-emerald-400"
+            >
+              Other Ways to Connect
+            </h2>
             <div class="space-y-6">
-              <UCard class="p-6">
+              <UCard class="shadow-sm dark:bg-gray-800">
                 <template #header>
                   <div class="flex items-center gap-2">
                     <UIcon
@@ -40,7 +44,7 @@
                   </UButton>
                 </div>
               </UCard>
-              <UCard class="p-6">
+              <UCard class="shadow-sm dark:bg-gray-800">
                 <template #header>
                   <div class="flex items-center gap-2">
                     <UIcon
@@ -58,7 +62,7 @@
                   We publish our code under a GPL2.0 license.
                 </p>
               </UCard>
-              <UCard class="p-6">
+              <UCard class="shadow-sm dark:bg-gray-800">
                 <template #header>
                   <div class="flex items-center gap-2">
                     <UIcon
@@ -85,10 +89,18 @@
 
           <!-- FAQ Section -->
           <div>
-            <h2 class="text-2xl font-bold mb-8">Frequently Asked Questions</h2>
-            <UCard class="divide-y">
+            <h2
+              class="text-2xl font-bold mb-8 text-emerald-700 dark:text-emerald-400"
+            >
+              Frequently Asked Questions
+            </h2>
+            <UCard
+              class="shadow-sm dark:bg-gray-800 divide-y dark:divide-gray-700"
+            >
               <div class="py-4">
-                <h3 class="font-semibold mb-2">What is a CNC?</h3>
+                <h3 class="font-semibold mb-2 dark:text-gray-200">
+                  What is a CNC?
+                </h3>
                 <p class="text-gray-600 dark:text-gray-300">
                   A Crypto Native Corporation (CNC) is a new type of
                   organization that operates primarily through blockchain
@@ -96,7 +108,9 @@
                 </p>
               </div>
               <div class="py-4">
-                <h3 class="font-semibold mb-2">How do I get started?</h3>
+                <h3 class="font-semibold mb-2 dark:text-gray-200">
+                  How do I get started?
+                </h3>
                 <p class="text-gray-600 dark:text-gray-300">
                   Click the "Get Started" button to begin creating your CNC. Our
                   guided process will help you set up your organization step by
@@ -104,7 +118,7 @@
                 </p>
               </div>
               <div class="py-4">
-                <h3 class="font-semibold mb-2">
+                <h3 class="font-semibold mb-2 dark:text-gray-200">
                   Is technical knowledge required?
                 </h3>
                 <p class="text-gray-600 dark:text-gray-300">

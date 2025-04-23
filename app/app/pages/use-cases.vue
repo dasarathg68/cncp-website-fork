@@ -1,9 +1,9 @@
 <template>
-  <div class="py-16">
+  <div class="py-16 dark:bg-gray-900">
     <div class="container mx-auto px-4">
       <!-- Page Header -->
       <div class="max-w-3xl mx-auto text-center mb-16">
-        <h1 class="text-4xl font-bold mb-6">CNC Use Cases</h1>
+        <h1 class="text-4xl font-bold mb-6 dark:text-white">CNC Use Cases</h1>
         <p class="text-xl text-gray-600 dark:text-gray-200">
           Discover how different users and organizations can leverage the CNC
           model
@@ -15,7 +15,7 @@
         <!-- AI Service Provider -->
         <div>
           <div class="grid md:grid-cols-2 gap-8">
-            <UCard>
+            <UCard class="shadow-sm dark:bg-gray-800">
               <template #header>
                 <div class="flex items-center gap-2">
                   <UIcon
@@ -41,8 +41,10 @@
                 ownership but for now he decides to retain exclusive ownership.
               </p>
             </UCard>
-            <UCard class="flex items-center justify-center min-h-[300px]">
-              <p class="text-xl">Image</p>
+            <UCard
+              class="shadow-sm dark:bg-gray-800 flex items-center justify-center min-h-[300px]"
+            >
+              <p class="text-xl dark:text-gray-400">Image</p>
             </UCard>
           </div>
         </div>
@@ -50,7 +52,7 @@
         <!-- Digital Art Collective -->
         <div>
           <div class="grid md:grid-cols-2 gap-8">
-            <UCard>
+            <UCard class="shadow-sm dark:bg-gray-800">
               <template #header>
                 <div class="flex items-center gap-2">
                   <UIcon
@@ -74,8 +76,10 @@
                 after expenses including his pay as the manager.
               </p>
             </UCard>
-            <UCard class="flex items-center justify-center min-h-[300px]">
-              <p class="text-xl">Image</p>
+            <UCard
+              class="shadow-sm dark:bg-gray-800 flex items-center justify-center min-h-[300px]"
+            >
+              <p class="text-xl dark:text-gray-400">Image</p>
             </UCard>
           </div>
         </div>
@@ -83,7 +87,7 @@
         <!-- Open Source Development -->
         <div>
           <div class="grid md:grid-cols-2 gap-8">
-            <UCard>
+            <UCard class="shadow-sm dark:bg-gray-800">
               <template #header>
                 <div class="flex items-center gap-2">
                   <UIcon
@@ -108,8 +112,10 @@
                 revenue is generated, profits are paid proportionally.
               </p>
             </UCard>
-            <UCard class="flex items-center justify-center min-h-[300px]">
-              <p class="text-xl">Image</p>
+            <UCard
+              class="shadow-sm dark:bg-gray-800 flex items-center justify-center min-h-[300px]"
+            >
+              <p class="text-xl dark:text-gray-400">Image</p>
             </UCard>
           </div>
         </div>

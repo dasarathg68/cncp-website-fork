@@ -1,10 +1,10 @@
 <template>
-  <div>
+  <div class="dark:bg-gray-900">
     <!-- Hero Section -->
     <section>
-      <div class="container mx-auto px-4 py-20">
+      <div class="container mx-auto px-4 py-8">
         <div class="max-w-3xl mx-auto text-center">
-          <h1 class="text-4xl font-bold mb-6">
+          <h1 class="text-4xl font-bold mb-6 dark:text-white">
             Welcome to the Future of Corporate Organization
           </h1>
           <p class="text-xl text-gray-600 dark:text-gray-200 mb-8">
@@ -13,7 +13,9 @@
             using blockchain technology.
           </p>
           <div class="flex justify-center gap-4">
-            <UButton size="lg" to="/get-started"> Get Started </UButton>
+            <UButton size="lg" to="https://app.cncportal.io">
+              Get Started
+            </UButton>
             <UButton variant="ghost" size="lg" to="/how-it-works">
               Learn More
             </UButton>
@@ -23,13 +25,21 @@
     </section>
 
     <!-- What is CNC Section -->
-    <section class="py-16">
+    <section>
       <div class="container mx-auto px-4">
         <div class="max-w-3xl mx-auto">
-          <h2 class="text-3xl font-bold mb-8 text-center">What is a CNC?</h2>
-          <UCard class="mb-8">
+          <h2
+            class="text-3xl font-bold mb-8 text-center text-emerald-700 dark:text-emerald-400"
+          >
+            What is a CNC?
+          </h2>
+          <UCard class="shadow-sm dark:bg-gray-800 mb-8">
             <template #header>
-              <h3 class="text-xl font-semibold">Crypto Native Corporation</h3>
+              <h3
+                class="text-xl font-semibold text-emerald-700 dark:text-emerald-400"
+              >
+                Crypto Native Corporation
+              </h3>
             </template>
             <p class="text-gray-600 dark:text-gray-300">
               Crypto Native Corporations are a subtype of Decentralized
@@ -47,9 +57,13 @@
     <section class="py-16">
       <div class="container mx-auto px-4">
         <div class="max-w-3xl mx-auto">
-          <UCard class="mb-8">
+          <UCard class="shadow-sm dark:bg-gray-800 mb-8">
             <template #header>
-              <h3 class="text-xl font-semibold">Vision</h3>
+              <h3
+                class="text-xl font-semibold text-emerald-700 dark:text-emerald-400"
+              >
+                Vision
+              </h3>
             </template>
             <p class="text-gray-600 dark:text-gray-300">
               Any knowledge worker, regardless of the local currency,
@@ -66,13 +80,19 @@
     <!-- Key Differences Section -->
     <section class="py-16">
       <div class="container mx-auto px-4">
-        <h2 class="text-3xl font-bold mb-12 text-center">
+        <h2
+          class="text-3xl font-bold mb-12 text-center text-emerald-700 dark:text-emerald-400"
+        >
           CNC vs DAO: Key Differences
         </h2>
         <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-          <UCard>
+          <UCard class="shadow-sm dark:bg-gray-800">
             <template #header>
-              <h3 class="text-xl font-semibold">DAO</h3>
+              <h3
+                class="text-xl font-semibold text-emerald-700 dark:text-emerald-400"
+              >
+                DAO
+              </h3>
             </template>
             <ul class="space-y-4 text-gray-600 dark:text-gray-300">
               <li>• No central authority. Run by smart contracts.</li>
@@ -86,9 +106,13 @@
               <li>• Funds raised through token sales and ICOs.</li>
             </ul>
           </UCard>
-          <UCard>
+          <UCard class="shadow-sm dark:bg-gray-800">
             <template #header>
-              <h3 class="text-xl font-semibold">CNC</h3>
+              <h3
+                class="text-xl font-semibold text-emerald-700 dark:text-emerald-400"
+              >
+                CNC
+              </h3>
             </template>
             <ul class="space-y-4 text-gray-600 dark:text-gray-300">
               <li>
@@ -115,9 +139,13 @@
     <!-- Benefits Section -->
     <section class="py-16">
       <div class="container mx-auto px-4">
-        <h2 class="text-3xl font-bold mb-12 text-center">Why Choose CNC?</h2>
+        <h2
+          class="text-3xl font-bold mb-12 text-center text-emerald-700 dark:text-emerald-400"
+        >
+          Why Choose CNC?
+        </h2>
         <div class="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-          <UCard>
+          <UCard class="shadow-sm dark:bg-gray-800">
             <template #header>
               <div class="flex items-center gap-2">
                 <UIcon
@@ -136,7 +164,7 @@
               knowledge workers, maintaining control and ownership.
             </p>
           </UCard>
-          <UCard>
+          <UCard class="shadow-sm dark:bg-gray-800">
             <template #header>
               <div class="flex items-center gap-2">
                 <UIcon
@@ -155,7 +183,7 @@
               equal investors, regardless of local currency.
             </p>
           </UCard>
-          <UCard>
+          <UCard class="shadow-sm dark:bg-gray-800">
             <template #header>
               <div class="flex items-center gap-2">
                 <UIcon
@@ -181,7 +209,11 @@
     <!-- CTA Section -->
     <section class="py-16">
       <div class="container mx-auto px-4 text-center">
-        <h2 class="text-3xl font-bold mb-6">Ready to Build Your CNC?</h2>
+        <h2
+          class="text-3xl font-bold mb-6 text-emerald-700 dark:text-emerald-400"
+        >
+          Ready to Build Your CNC?
+        </h2>
         <p
           class="text-xl text-gray-600 dark:text-gray-200 mb-8 max-w-2xl mx-auto"
         >
