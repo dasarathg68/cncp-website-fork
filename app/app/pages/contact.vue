@@ -49,9 +49,6 @@
                 <p class="text-gray-600">
                   We publish our code under a GPL2.0 license.
                 </p>
-                <div class="mt-4">
-                  <UButton variant="ghost"> Coming Soon </UButton>
-                </div>
               </UCard>
               <UCard class="p-6">
                 <template #header>
