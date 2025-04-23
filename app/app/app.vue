@@ -13,9 +13,8 @@
           class="flex items-center gap-2 transition-transform hover:scale-105"
         >
           <NuxtImg
-            :src="'/Logo.png'"
-            class="w-40"
-            :class="colorMode.value === 'dark' ? 'dark:invert' : ''"
+            :src="colorMode.value === 'dark' ? '/LogoDark.png' : '/Logo.png'"
+            class="w-32"
             alt="CNC Portal Logo"
           />
         </NuxtLink>
