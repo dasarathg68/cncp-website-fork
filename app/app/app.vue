@@ -187,6 +187,24 @@ const handleScroll = () => {
 
   lastScrollPosition.value = currentScrollPosition;
 };
+useSeoMeta({
+  title: "CNC Portal – Launch and Scale Your Crypto Native Corporation",
+  ogTitle: "CNC Portal – Empowering Distributed Crypto Enterprises",
+  description:
+    "Spin up your Crypto Native Corporation with blockchain-powered governance, smart contracts, and tokenized ownership. Automate payments, attract contributors, and scale without giving up control.",
+  ogDescription:
+    "The CNC Portal enables knowledge workers and founders to create scalable, globally-owned blockchain-based corporations. Democratize governance, automate token distribution, and bootstrap your venture without VCs.",
+  ogImage: "/Logo.png",
+  keywords:
+    "crypto native corporation, corporate, corporations, decentralized governance, smart contract platform, tokenized equity, open source incentives, blockchain corporations, DAO alternative, DeFi for startups, web3 organizations, CNC Portal, governance, smart contracts, tokenized ownership, automation, scalability, global ownership, blockchain-based corporations",
+  author: "Globe & Citizen",
+  robots: "index, follow",
+  twitterCard: "summary_large_image",
+  twitterTitle: "Build Scalable Web3 Companies with CNC Portal",
+  twitterDescription:
+    "Turn ideas into distributed companies using smart contracts, token-based equity, and democratic governance. CNC Portal is your gateway to founding a modern Crypto Native Corporation.",
+  twitterImage: "/Logo.png",
+});
 </script>
 
 <style>
