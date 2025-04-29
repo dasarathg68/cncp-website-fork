@@ -106,28 +106,6 @@
               <h3
                 class="text-xl font-semibold text-black dark:text-emerald-400"
               >
-                DAO
-              </h3>
-            </template>
-            <ul class="space-y-4 text-black dark:text-white">
-              <li>• No central authority. Run by smart contracts.</li>
-              <li>
-                • Managed in the open with all decisions recorded on chain.
-              </li>
-              <li>
-                • Permissionless: anyone can purchase voting power through token
-                ownership.
-              </li>
-              <li>• Funds raised through token sales and ICOs.</li>
-            </ul>
-          </UCard>
-          <UCard
-            class="shadow-sm bg-white dark:bg-gray-800 transition-transform duration-300 hover:shadow-lg hover:scale-[1.02] mb-8"
-          >
-            <template #header>
-              <h3
-                class="text-xl font-semibold text-black dark:text-emerald-400"
-              >
                 CNC
               </h3>
             </template>
@@ -147,6 +125,28 @@
                 • Equity created through voluntary participation and tokenized
                 representation.
               </li>
+            </ul>
+          </UCard>
+          <UCard
+            class="shadow-sm bg-white dark:bg-gray-800 transition-transform duration-300 hover:shadow-lg hover:scale-[1.02] mb-8"
+          >
+            <template #header>
+              <h3
+                class="text-xl font-semibold text-black dark:text-emerald-400"
+              >
+                DAO
+              </h3>
+            </template>
+            <ul class="space-y-4 text-black dark:text-white">
+              <li>• No central authority. Run by smart contracts.</li>
+              <li>
+                • Managed in the open with all decisions recorded on chain.
+              </li>
+              <li>
+                • Permissionless: anyone can purchase voting power through token
+                ownership.
+              </li>
+              <li>• Funds raised through token sales and ICOs.</li>
             </ul>
           </UCard>
         </div>
@@ -179,8 +179,9 @@
               </div>
             </template>
             <p class="text-black dark:text-white">
-              Scale through micro-investments of labor from distributed
-              knowledge workers, maintaining control and ownership.
+              Scale through micro-investments of skilled labor instead of a few
+              large cash infusions. Enjoy the efficient corporate structure
+              controls and the antifragility of distributed ownership.
             </p>
           </UCard>
           <UCard
